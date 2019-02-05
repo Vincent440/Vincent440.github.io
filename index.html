@@ -1,71 +1,53 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-US">
+    <head>     
+        <meta charset="UTF-8">
+        <!-- my browser tab title -->
+        <!--Viewport tag for mobile responsiveness-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vince's About me</title>
+        <!--link to reset.css-->
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <!-- the link to my style.css file -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
 
-<head>
-  <title>Postioning activities</title>
-  <link rel="stylesheet" type="text/css" href="positioning.css">
-</head>
+    <body>
+        <!-- #ID topheader in Header element to keep the items inline with the text -->
+        <header id = "topheader">
+            <!-- my name with a heading in the header with the ID topleftname -->
+            <h1 id ="topleftname">Vincent Shury</h1>
+            <!-- Buttons connecting to the other pages With the ID topnavbuttons -->
+            <nav id ="topnavbuttons">
+                <!--each button to other docs, has classname navbuttons-->
+                <a href ="index.html" class ="navbuttons">About</a>|
+                <a href ="portfolio.html" class ="navbuttons" id ="midnavbut">Portfolio</a>|
+                <a href ="contact.html" class ="navbuttons">Contact</a>
+            </nav>
+        </header>
 
-<body>
-  <div id="fixed">
-    &lt;div&gt;<br>
-    postion: fixed
-  </div>
-
-  <div class="wrapper">
-
-    
-    <section id="content">
-
-      <h1>Heading!</h1>
-
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-      when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-       It has survived not only five centuries, but also the leap into electronic typesetting,
-      remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-      and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-
-        
-    <div id="relative">
-      &lt;div&gt;<br>
-      postion: relative
-     <div id="absolute">
-     &lt;div&gt;<br>
-     postion: absolute
-    </div>
-    </div>
-
-     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-     The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
-      content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
-     and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years,
-     sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-
-     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
-     making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia
-     , looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
-     and going through the cites of the word in classical literature, discovered the undoubtable source.
-     Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
-     written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
-     The first line of Lorem Ipsum,
-     "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-
-     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
-     by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum,
-     you need to be sure there isn't anything embarrassing hidden in the middle of text.
-     All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,
-     making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words,
-     combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
-     The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
- 
-   </section>
-
-
-
-
-  </div>
-    
-</body>
-
+        <!-- my about me section in main element to hold in the background image -->
+        <main>
+            <div id="biosection">
+                <!-- The heading to my body section -->
+                <h1 id="header1">About Me</h1>
+                <!--a break line with bottom border on header-->
+                
+                <!-- my about me image of what should be me -->
+                <img src="assets/images/vince.jpg" id="myaboutmeimage" alt="Vince Shury">
+                <!-- my two paragraphs describing myself with the biopara class to modify them-->
+                <p class ="biopara"> My full name is Vincent Shury, However I prefer to just be called Vince. I am entirely new to computer programming,the only computer language I tried to learn before was Python and I did not get very far. I'm very confident with this course I will learn many new computer languages and the tools I need to be a great developer, 
+                 (Google & W3 Schools). One thing I am familiar with is computer hardware, as of now I am on my fifth computer build, however
+                 I still need a graphics card for my computer but I am not worried about that just yet with all this time I need for web developement. (I am just waiting for the new line of AMD GPUs.) 
+                </p>
+                <br><!--line break between paragraphs to put seperation in them-->
+                
+                <p class ="biopara"> Outside of computers I love the outdoors and camping. As of 2017 I am a motorcycle rider who enjoys riding whenever there is a clear nice day. I have all the gear I need to keep me safe and dry on my rides just about any day of the year.
+                 When it comes to camping I always opt to use a lightweight hammock with a cover. The hammock is super light and easy to set up without having to stay on the ground on those wet days! I am looking forward to those clear starry summer nights.
+                </p>
+            </div>
+        </main>
+        <!-- my copyright inside in my footer for each page -->
+        <footer>Copyright &copy; 2019 Vince Shury</footer>
+    </body>
 </html>
