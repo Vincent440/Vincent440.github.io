@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 h1,h2,h3 { /*required font change to headings*/
-    color:#4aaaa5;
+    color:#FF2200;
     font-family:Georgia, Times, 'Times New Roman', serif;
 }
 #topheader {  /* my top navigation bar for the outer container */
@@ -11,23 +11,22 @@ h1,h2,h3 { /*required font change to headings*/
     height: 80px;
     margin: auto;
     width: 100%;
-    border-bottom: 2px solid #cccccc;
+    border-bottom: 2px solid #BF1A00;
     position: relative;
 }
 #topleftname {/*My name on the top left of the page inside of id fullnameinheader*/
-    background-color:#4aaaa5;
+    background-color: #7F1100;
     text-align: center;
-    padding: 25px;
-    width: 300px;
-    height:100%;
+    padding: 1.5rem;
+    width: 33%;
+    height: 100%;
     float: left;
-    margin-left: 40px;
     text-decoration: none;
-    color:#ffffff;
-    font-size: 28px;
+    color: #ffffff;
+    font-size: 2rem;
     font-weight: bolder;
     position: absolute;
-    left: 10%;
+    left: 5%;
     pointer-events: none;
 }
 #topnavbuttons{ /*container holding all the buttons in top right*/
@@ -38,11 +37,11 @@ h1,h2,h3 { /*required font change to headings*/
     border: none;
     position: absolute;
     right: 10%;
-    color: lightgrey;
+    color:#370900;
 }
 .navbuttons{/*individual buttons in top right of header*/
     text-decoration: none;
-    color: #777777;
+    color: #7E0000;
     padding:0px 5px 0px 5px;
     margin:0px 5px 0px 5px;
     border:none;
@@ -50,21 +49,22 @@ h1,h2,h3 { /*required font change to headings*/
 }
 body {/*my body font change*/
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#370900;
 }
 main {/*the main content section with my background image repeating*/
-    padding:10px;
+    padding:1rem;
     clear: both;
     background-image:url('../images/gaming-pattern.png');
     background-repeat: repeat;
     position:relative;
     z-index:1;
     overflow: hidden;
-    padding-top: 50px;
-    padding-bottom: 80px;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
 }
 #biosection {/*container holding my about me image, heading, and two paragraphs*/
     background-color:#ffffff;
-    width: 965px;
+    width: 90%;
     margin:auto;
     border-color: lightgray;
     border-style: solid;
@@ -74,31 +74,30 @@ main {/*the main content section with my background image repeating*/
     font-weight:bold;
     font-size: 28px;
     border-bottom: solid;
-    border-color: lightgray;
+    border-color: #BF1A00;
     padding: 25px;
     padding-left:0px;
     margin: 5px 30px 0px 30px;
     pointer-events: none;
 }
 #myaboutmeimage {/*the adjustments on my image*/
-    padding:30px 20px 10px 30px;
+    padding: 2rem 3rem 3rem 2rem;
     float: left;
-    width: 320px;
-    height:400px;
+    width: 35%;
+    height: auto;
 }
 .biopara { /*edits to both paragraphs in about me*/
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     display: block;
     line-height: 2;
-    color: #777777;
-    padding: 25px;
-    padding-bottom:10px;
+    color: #7E0000;
+    padding: 1rem 2rem 2rem 1rem;
 }
 footer { /*the footer to the documents that may need to be sticky*/
     clear: both;
-    background-color: #666666;
+    background-color: #4B0000;
     width: 100%;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid #BF1A00;
     text-align: center;
     padding: 30px 0px 10px 0px;
     margin-bottom: 0px;
@@ -108,19 +107,18 @@ footer { /*the footer to the documents that may need to be sticky*/
 
     Start of Portfolio.HTML Specific Styling*/
 #topleftname1 {/*My name on the top left of the page inside of id fullnameinheader*/
-    background-color:#4aaaa5;
+    background-color: #7F1100;
     text-align: center;
-    padding: 25px 0px 25px 0px;
-    width: 250px;
-    height:100%;
+    padding: 1.5rem;
+    width: 33%;
+    height: 100%;
     float: left;
-    margin-left: 40px;
     text-decoration: none;
-    color:#ffffff;
-    font-size: 28px;
+    color: #ffffff;
+    font-size: 2rem;
     font-weight: bolder;
     position: absolute;
-    left: 10%;
+    left: 5%;
     pointer-events: none;
 }
 #topnavbuttons1 { /*container holding all the buttons in top right*/
@@ -131,22 +129,22 @@ footer { /*the footer to the documents that may need to be sticky*/
     border: none;
     position: absolute;
     right: 10%;
-    color: lightgrey;
+    color:#370900;
 }
 #portmainbg {/*the main content section with my background image repeating*/
-    padding:10px;
+    padding:1rem;
     clear: both;
     background-image:url('../images/gaming-pattern.png');
     background-repeat: repeat;
     position:relative;
     z-index:1;
     overflow: hidden;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
 }
 #portfoliomain {/*container ID holding Portfolio heading and images */
     background-color:#ffffff;
-    width: 700px;
+    width: 90%;
     margin:auto;
     border-color: lightgray;
     border-style: solid;
@@ -157,13 +155,13 @@ footer { /*the footer to the documents that may need to be sticky*/
     font-weight:bold;/*adjustments to shrink the header on port page*/
     font-size: 28px;
     border-bottom: solid;
-    border-color: lightgray;
+    border-color: #BF1A00;
     padding: 30px;
     padding-left:0px;
     margin: 0px 30px 0px 30px;
 }
 .portbox {/*the boxes that hold the heading with the images behind them*/
-    padding: 20px;
+    padding: 1.25rem;
     box-sizing: border-box;
     float: left;
     height: 160px;
@@ -173,15 +171,16 @@ footer { /*the footer to the documents that may need to be sticky*/
     overflow: hidden;
 }
 .porttitle {/*the headings inside the image boxes*/
-    background-color: #4aaaa5;
+    background-color: #E51F00;
     text-align: center;
     border: none;
-    padding: 20px 0px 20px 0px;
+    padding: 0.5rem 0rem .5rem 0rem;
     color: #ffffff;
     position: relative;
-    bottom: -75px;
-    left: -20px;
+    bottom: -2rem;
+    left: -1.2rem;
     width: inherit;
+    opacity: 0.7;
 }
 #porta {/*the specific backgrounds for the image boxes*/
     background-image:url('../images/hangman.jpg');
@@ -205,7 +204,7 @@ footer { /*the footer to the documents that may need to be sticky*/
     background-size: contain;
 }
 #porte {/*the specific backgrounds for the image boxes*/
-    background-image:url('../images/rockpaperscissors.jpg');
+    background-image:url('../images/rockpaperscissors.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -213,20 +212,20 @@ footer { /*the footer to the documents that may need to be sticky*/
 
 Start of Contact.HTML Specific Styling      */
 #contmainbg {/*the main content section with my background image repeating, height set to push down footer*/
-    padding:10px;
+    padding:1rem;
     clear: both;
     background-image:url('../images/gaming-pattern.png');
     background-repeat: repeat;
     position:relative;
     z-index:1;
     overflow: hidden;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
     height: 600px;
 }
 #contactformbox {/*container ID holding contact heading and text boxes */
     background-color:#ffffff;
-    width: 700px;
+    width: 50%;
     margin:auto;
     border-color: lightgray;
     border-style: solid;
@@ -241,7 +240,7 @@ Start of Contact.HTML Specific Styling      */
     font-weight:bold;/*adjustments to shrink the header contact page*/
     font-size: 28px;
     border-bottom: solid;
-    border-color: lightgray;
+    border-color: #BF1A00;
     padding-left:0px;
     padding:0px 0px 20px 0px;
     margin: 0px 0px 10px 0px; 
@@ -283,7 +282,7 @@ Start of Contact.HTML Specific Styling      */
     font-size: 18px;
     color: #ffffff;
     cursor: pointer;
-    background: #4aaaa5;
+    background: #BF1A00;
     border: 0 none;
   }
   
@@ -372,9 +371,5 @@ Start of Contact.HTML Specific Styling      */
       #contactformbox {
         width: 80%;
       }
-
-
-
-
 
   }
