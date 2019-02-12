@@ -5,21 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Rock!Paper!Scissors!</title>
-    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
   </head>
 
   <body>
-
-        
-        <div id="game">
-        <h1>Press R for Rock, P for Paper, Or S for Scissors!</h1>
-        </div>
-
-
-
-
-
+    <div id="game">
+      <h1>Press R for Rock, P for Paper, Or S for Scissors!</h1>
+    </div>
 
     <script type="text/javascript">
       var options = ["r", "p", "s"];
@@ -29,50 +26,53 @@
 
       document.onkeyup = function() {
         var userguess = String.fromCharCode(event.keyCode).toLowerCase();
-        console.log(userguess);
+        //console.log(userguess);
 
         var computerGuess = options[Math.floor(Math.random() * options.length)];
 
-        console.log(computerGuess);
+        //console.log(computerGuess);
 
         if (userguess == "r" || userguess == "p" || userguess == "s") {
-            
+          
           if (userguess == "r" && computerGuess == "s") {
             wins++;
           }
-          if (userguess == "r" && computerGuess == "p") {
+          else if (userguess == "r" && computerGuess == "p") {
             losses++;
           }
-          if (userguess == "p" && computerGuess == "s") {
+          else if (userguess == "p" && computerGuess == "s") {
             losses++;
           }
-          if (userguess == "p" && computerGuess == "r") {
+          else if (userguess == "p" && computerGuess == "r") {
             wins++;
           }
-          if (userguess == "s" && computerGuess == "p") {
+          else if (userguess == "s" && computerGuess == "p") {
             wins++;
           }
-          if (userguess == "s" && computerGuess == "r") {
+          else if (userguess == "s" && computerGuess == "r") {
             losses++;
-          } 
-          if (userguess == computerGuess) {
+          }
+          else if (userguess == computerGuess) {
             ties++;
+          } 
+        else {
+            alert("Please Choose Either R, P, or S");
           }
-        
-            else {
-          alert("Please Choose Either R, P, or S");
-        }}
+        }
 
-        var html = "<h1>Press R for Rock, P for Paper, Or S for Scissors!</h1>" +
-        "<p>Wins: " + wins + "</p>" +
-        "<p>Losses: " + losses + "</p>" +
-        "<p>Ties: " + ties + "</p>"
+        var html =
+          "<h1>Press R for Rock, P for Paper, Or S for Scissors!</h1>" +
+          "<p>Wins: " +
+          wins +
+          "</p>" +
+          "<p>Losses: " +
+          losses +
+          "</p>" +
+          "<p>Ties: " +
+          ties +
+          "</p>";
         document.querySelector("#game").innerHTML = html;
-
-      }
-
-
-
+      };
     </script>
   </body>
 </html>
