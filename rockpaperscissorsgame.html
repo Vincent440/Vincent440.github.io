@@ -33,31 +33,23 @@
         //console.log(computerGuess);
 
         if (userguess == "r" || userguess == "p" || userguess == "s") {
-          
           if (userguess == "r" && computerGuess == "s") {
             wins++;
-          }
-          else if (userguess == "r" && computerGuess == "p") {
+          } else if (userguess == "r" && computerGuess == "p") {
             losses++;
-          }
-          else if (userguess == "p" && computerGuess == "s") {
+          } else if (userguess == "p" && computerGuess == "s") {
             losses++;
-          }
-          else if (userguess == "p" && computerGuess == "r") {
+          } else if (userguess == "p" && computerGuess == "r") {
             wins++;
-          }
-          else if (userguess == "s" && computerGuess == "p") {
+          } else if (userguess == "s" && computerGuess == "p") {
             wins++;
-          }
-          else if (userguess == "s" && computerGuess == "r") {
+          } else if (userguess == "s" && computerGuess == "r") {
             losses++;
-          }
-          else if (userguess == computerGuess) {
+          } else if (userguess == computerGuess) {
             ties++;
-          } 
-        else {
-            alert("Please Choose Either R, P, or S");
           }
+        } else {
+          alert("Please Choose Either R, P, or S");
         }
 
         var html =
