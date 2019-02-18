@@ -1,67 +1,79 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>     
-        <meta charset="UTF-8">
-        <!-- my browser tab title -->
-        <!--Viewport tag for mobile responsiveness-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contact Vince</title>
-        <!--link to reset.css-->
-        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-        <!-- the link to my style.css file -->
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- my browser tab title -->
+    <!--Viewport tag for mobile responsiveness-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Vince</title>
+    <!--link to reset.css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <!-- the link to my style.css file -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+  </head>
 
-    <body>
-        <!-- #ID topheader in Header element to keep the items inline with the text -->
-     <header id = "topheader">
-        
-            <!-- my name with a heading in the header with the ID topleftname -->
-            <h1 id ="topleftname">Vincent Shury</h1>
+  <body>
+    <!-- #ID topheader in Header element to keep the items inline with the text -->
+    <header id="topheader">
+      <!-- my name with a heading in the header with the ID topleftname -->
+      <h1 id="topleftname">Vincent Shury</h1>
 
-            <!-- Buttons connecting to the other pages With the ID topnavbuttons -->
-            <nav id ="topnavbuttons">
-                <!--each button to other docs, has classname navbuttons-->
-                <a href ="index.html" class ="navbuttons">About</a>|
-                <a href ="portfolio.html" class ="navbuttons" id ="midnavbut">Portfolio</a>|
-                <a href ="contact.html" class ="navbuttons">Contact</a>
-            </nav>
-     </header>
+      <!-- Buttons connecting to the other pages With the ID topnavbuttons -->
+      <nav id="topnavbuttons">
+        <!--each button to other docs, has classname navbuttons-->
+        <a href="index.html" class="navbuttons">About</a>|
+        <a href="portfolio.html" class="navbuttons">Portfolio</a>|
+        <a href="contact.html" class="navbuttons">Contact</a>
+      </nav>
+    </header>
 
-     <!--Main to set background-->
+    <!--Main to set background-->
     <main id="contmainbg">
-        
-        <!--container to hold contact forms-->
-        <div id="contactformbox">
+      <!--container to hold contact forms-->
+      <div id="contactformbox">
+        <!--The contact heading in the page-->
+        <h1 id="contactme">Contact</h1>
 
-            <!--The contact heading in the page-->
-            <h1 id="contactme">Contact</h1>
-
-            <!--Name form-->
-            <form id="contact-form">
-                <ul>
-                  <li>
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-                  </li>
-                  <li>
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-                  </li>
-                  <li>
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" required="required"></textarea>
-                  </li>
-                </ul>
-                <input type="submit">
-              </form>
-        </div>
-
+        <!--Name form-->
+        <form id="contact-form">
+          <ul>
+            <li>
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="John Smith"
+                required="required"
+              />
+            </li>
+            <li>
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="example@gmail.com"
+                required="required"
+              />
+            </li>
+            <li>
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                required="required"
+              ></textarea>
+            </li>
+          </ul>
+          <input type="submit" />
+        </form>
+      </div>
     </main>
 
-        <!-- my copyright inside in my footer for each page -->
-        <footer>Copyright &copy; 2019 Vince Shury</footer>
-    </body>
+    <!-- my copyright inside in my footer for each page -->
+    <footer>Copyright &copy; 2019 Vince Shury</footer>
+  </body>
 </html>

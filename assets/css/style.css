@@ -84,7 +84,7 @@ main {
   border-color: lightgray;
   border-style: solid;
   border-width: 0.1rem;
-  font-size: 2.4rem;
+  font-size: 2rem;
   overflow: hidden;
 }
 #header1 {
@@ -181,33 +181,39 @@ footer {
   width: inherit;
   opacity: 0.7;
 }
-#porta {
+#port0 {
   /*the specific backgrounds for the image boxes*/
   background-image: url("../images/psychicimage.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 }
-#portb {
+#port1 {
   /*the specific backgrounds for the image boxes*/
-  background-image: url("../images/rpggame.jpg");
+  background-image: url("../images/crystal.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 }
-#portc {
+#port2 {
   /*the specific backgrounds for the image boxes*/
   background-image: url("../images/triviagame.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 }
-#portd {
+#port3 {
   /*the specific backgrounds for the image boxes*/
   background-image: url("../images/rutgersinfowidget.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 }
-#porte {
+#port4 {
   /*the specific backgrounds for the image boxes*/
   background-image: url("../images/rockpaperscissors.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#port5 {
+  /*the specific backgrounds for the image boxes*/
+  background-image: url("../images/startrek.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 }
