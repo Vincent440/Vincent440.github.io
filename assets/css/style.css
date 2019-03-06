@@ -181,6 +181,7 @@ footer {
   width: inherit;
   opacity: 0.7;
 }
+/*--------------------TODO HERE:--> need to force image heights+Widths to be the same accross all boxes--------------------*/
 #port0 {
   /*the specific backgrounds for the image boxes*/
   background-image: url("../images/psychicimage.jpg");
@@ -213,7 +214,19 @@ footer {
 }
 #port5 {
   /*the specific backgrounds for the image boxes*/
-  background-image: url("../images/startrek.jpg");
+  background-image: url("https://media.giphy.com/media/d1zp7XeNrzpWo/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#port6 {
+  /*the specific backgrounds for the image boxes*/
+  background-image: url("../images/rpggame.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#port7 {
+  /*the specific backgrounds for the image boxes*/
+  background-image: url("../images/placeholder_one.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 }
