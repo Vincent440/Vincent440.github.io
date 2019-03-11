@@ -1,5 +1,14 @@
-# My continued Portfolio page that I will be editing to have my live pages connected inside of its portfolio page. 
+#Vince Shury's Profile Page.
+
+This page utilizes Html Css And css media queries to make it functional on all viewports. 
+
+##Current Issues to be resolved 
+
+
 *need to modify it to adjust font-size based off of the screen size
+
 *set max screen breaks
+
 *add sticky footer
+
 *fix images for port page to be equal size
