@@ -179,7 +179,8 @@ footer {
   bottom: -2rem;
   left: -1.2rem;
   width: inherit;
-  opacity: 0.7;
+  opacity: 0.75;
+  font-size: 1.3em;
 }
 /*--------------------TODO HERE:--> need to force image heights+Widths to be the same accross all boxes--------------------*/
 #port0 {
@@ -193,6 +194,8 @@ footer {
   background-image: url("../images/crystal.jpg");
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
+
 }
 #port2 {
   /*the specific backgrounds for the image boxes*/
@@ -202,9 +205,10 @@ footer {
 }
 #port3 {
   /*the specific backgrounds for the image boxes*/
-  background-image: url("../images/rutgersinfowidget.jpg");
+  background-image: url("../images/giphytrain.gif");
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
 }
 #port4 {
   /*the specific backgrounds for the image boxes*/
@@ -223,6 +227,7 @@ footer {
   background-image: url("../images/rpggame.jpg");
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
 }
 #port7 {
   /*the specific backgrounds for the image boxes*/
