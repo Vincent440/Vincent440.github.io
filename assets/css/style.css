@@ -224,14 +224,14 @@ footer {
 }
 #port6 {
   /*the specific backgrounds for the image boxes*/
-  background-image: url("../images/rpggame.jpg");
+  background-image: url("../images/localeye.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 #port7 {
   /*the specific backgrounds for the image boxes*/
-  background-image: url("../images/placeholder_one.jpg");
+  background-image: url("../images/github.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
