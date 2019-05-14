@@ -371,7 +371,7 @@ input[type="submit"] {
 
   #topleftname {
     /*Set the name to fill page*/
-    height: 5rem;
+    height: 5.75rem;
     width: 100%;
     margin: 0rem;
   }
@@ -380,6 +380,7 @@ input[type="submit"] {
     position: relative;
     top: 5rem;
     margin: 1rem 4rem 1rem 0rem;
+    right: 6%;
   }
   /*need to modify portfolio page on small screens to bump pics into one collumn*/
   #portfoliomain {
