@@ -1,394 +1,93 @@
-* {
-  /*the index.html start of styling*/
-  box-sizing: border-box;
-}
-html {
-  font-size: 62.5%;
-} /*setting to make everything in rems through base ten ex= 1.5rem = 15 pxs*/
-h1,
-h2,
-h3 {
-  /*required font change to headings*/
-  color: #ff2200;
-  font-family: Georgia, Times, "Times New Roman", serif;
-}
-#topheader {
-  /* my top navigation bar for the outer container */
-  background-color: #ffffff;
-  border-top: 0px;
-  height: 80px;
-  margin: auto;
-  width: 100%;
-  border-bottom: 2px solid #bf1a00;
-  position: relative;
-  font-size: 2rem;
-}
-#topleftname {
-  /*My name on the top left of the page inside of id fullnameinheader*/
-  background-color: #7f1100;
-  text-align: center;
-  padding: 1.5rem;
-  width: 33%;
-  height: 100%;
-  float: left;
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 3rem;
-  font-weight: bolder;
-  position: absolute;
-  left: 5%;
-  pointer-events: none;
-}
-#topnavbuttons {
-  /*container holding all the buttons in top right*/
-  margin: 30px 10px 0px 0px;
-  padding: 0;
-  float: right;
-  background-color: #ffffff;
-  border: none;
-  position: absolute;
-  right: 10%;
-  color: #370900;
-}
-.navbuttons {
-  /*individual buttons in top right of header*/
-  text-decoration: none;
-  color: #7e0000;
-  padding: 0px 5px 0px 5px;
-  margin: 0px 5px 0px 5px;
-  border: none;
-  overflow: hidden;
-}
+/*
+Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap
+*/
+
+
+
+
+
+
+/* Elements */
 body {
-  /*my body font change*/
-  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-  color: #370900;
+     background: url("../images/gaming-pattern.png");
 }
-main {
-  /*the main content section with my background image repeating*/
-  padding: 1rem;
-  clear: both;
-  background-image: url("../images/gaming-pattern.png");
-  background-repeat: repeat;
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
-  padding-top: 4rem;
-  padding-bottom: 6rem;
+p {
+     font-family: 'Libre Baskerville', serif;
 }
-#biosection {
-  /*container holding my about me image, heading, and two paragraphs*/
-  background-color: #ffffff;
-  width: 90%;
-  margin: auto;
-  border-color: lightgray;
-  border-style: solid;
-  border-width: 0.1rem;
-  font-size: 2rem;
-  overflow: hidden;
+figure:hover {
+     border-style: outset;
+     background-color: rgb(24, 78, 255);
 }
-#header1 {
-  /*the about me header*/
-  font-weight: bold;
-  font-size: 28px;
-  border-bottom: solid;
-  border-color: #bf1a00;
-  padding: 25px;
-  padding-left: 0px;
-  margin: 5px 30px 0px 30px;
-  pointer-events: none;
+figure:hover figcaption {
+     color: white;
 }
-#myaboutmeimage {
-  /*the adjustments on my image*/
-  padding: 2rem 3rem 3rem 2rem;
-  float: left;
-  width: 33%;
-  height: auto;
+/* classes */
+.navbar-img {
+     margin: 0px!important;
+     width: 70px;
+     height: 70px;
 }
-.biopara {
-  /*edits to both paragraphs in about me*/
-  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-  display: block;
-  line-height: 2;
-  color: #7e0000;
-  padding: 1rem 2rem 2rem 1rem;
+/* Background theme classes */
+.green-bg { 
+     background-color: rgba(126, 147, 88, 1);
 }
-footer {
-  /*the footer to the documents that may need to be sticky*/
-  clear: both;
-  background-color: #4b0000;
-  width: 100%;
-  border-top: 8px solid #bf1a00;
-  text-align: center;
-  padding: 30px 0px 10px 0px;
-  margin-bottom: 0px;
-  font-size: 12px;
-  color: #ffffff;
-} /*                                                         End of INDEX.HTML Specific styling
-    Start of Portfolio.HTML Specific Styling*/
-#portmainbg {
-  /*the main content section with my background image repeating*/
-  padding: 1rem;
-  clear: both;
-  background-image: url("../images/gaming-pattern.png");
-  background-repeat: repeat;
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
-  padding-top: 4rem;
-  padding-bottom: 6rem;
+.grey-bg { 
+     background-color: rgba(122, 111, 97, 1);
 }
-#portfoliomain {
-  /*container ID holding Portfolio heading and images */
-  background-color: #ffffff;
-  width: 90%;
-  margin: auto;
-  border-color: lightgray;
-  border-style: solid;
-  border-width: 1px;
-  overflow: hidden;
+.eraser-bg {
+     background-color: rgba(163, 138, 138, 1);
 }
-#portfolioheading {
-  font-weight: bold; /*adjustments to shrink the header on port page*/
-  font-size: 28px;
-  border-bottom: solid;
-  border-color: #bf1a00;
-  padding: 30px;
-  padding-left: 0px;
-  margin: 0px 30px 0px 30px;
+.orange-bg {
+     background-color: rgb(129, 43, 3);
 }
-.portbox {
-  /*the boxes that hold the heading with the images behind them*/
-  padding: 1.25rem;
-  box-sizing: border-box;
-  float: left;
-  height: 160px;
-  width: 210px;
-  margin: 30px;
-  text-decoration: none;
-  overflow: hidden;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-
-
-}
-.porttitle {
-  /*the headings inside the image boxes*/
-  background-color: #e51f00;
-  text-align: center;
-  border: none;
-  padding: 0.5rem 0rem 0.5rem 0rem;
-  color: #ffffff;
-  position: relative;
-  bottom: -2rem;
-  left: -1.2rem;
-  width: inherit;
-  opacity: 0.75;
-  font-size: 1.3em;
-}
-/*--------------------TODO HERE:--> need to force image heights+Widths to be the same accross all boxes--------------------*/
-#port0 {
-  /*the specific backgrounds for the image boxes*/
-  background-image: url("../images/psychicimage.jpg");
-}
-#port1 {
-  /*the specific backgrounds for the image boxes*/
-  background-image: url("../images/crystal.jpg");
-}
-#port2 {
-  /*the specific backgrounds for the image boxes*/
-  background-image: url("../images/earthorbit.gif");
-}
-#port3 {
-  /*the specific backgrounds for the image boxes*/
-  background-image: url("../images/giphytrain.gif");
-}
-#port4 {
-  /*the specific backgrounds for the image boxes*/
-  background-image: url("../images/burgerapp.png");
-}
-#port5 {
-  /*the specific backgrounds for the image boxes*/
-  background-image: url("https://media.giphy.com/media/d1zp7XeNrzpWo/giphy.gif");
-}
-#port6 {
-  /*the specific backgrounds for the image boxes*/
-  background-image: url("../images/localeyeslogo.png");
-}
-#port7 {
-  /*the specific backgrounds for the image boxes*/
-  background-image: url("../images/friendfinder.png");
-}
-/*                                                      End of Portfolio.HTML Specific Styling
-Start of Contact.HTML Specific Styling      */
-#contmainbg {
-  /*the main content section with my background image repeating, height set to push down footer*/
-  padding: 1rem;
-  clear: both;
-  background-image: url("../images/gaming-pattern.png");
-  background-repeat: repeat;
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
-  padding-top: 4rem;
-  padding-bottom: 6rem;
-  height: 600px;
-}
-#contactformbox {
-  /*container ID holding contact heading and text boxes */
-  background-color: #ffffff;
-  width: 50%;
-  margin: auto;
-  border-color: lightgray;
-  border-style: solid;
-  border-width: 1px;
-  overflow: hidden;
-  padding: 25px;
-  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-  color: #777777;
-}
-#contactme {
-  font-weight: bold; /*adjustments to shrink the header contact page*/
-  font-size: 28px;
-  border-bottom: solid;
-  border-color: #bf1a00;
-  padding-left: 0px;
-  padding: 0px 0px 20px 0px;
-  margin: 0px 0px 10px 0px;
-  overflow: hidden;
-  line-height: 1.5;
-}
-/*have to syle the boxes to match the requirements// contact form box*/
-#contact-form ul {
-  margin-bottom: 20px;
+.red-bg {
+     background-color: rgb(149, 6, 6);
 }
 
-#contact-form li {
-  margin-bottom: 10px;
+/* IDS */
+#about-image {
+     max-width: 100%;
+     height: auto;
 }
-
-label,
-input[type="text"],
-input[type="email"],
-textarea {
-  display: block;
-  width: 100%;
+#connect-drop {
+     width: 90%;
 }
-
-input[type="text"],
-input[type="email"],
-textarea {
-  height: 35px;
-  padding: 0 10px;
-  font-size: 14px;
-  border: 1px solid #dddddd;
+/* Keep the container always below the navbar at any sizing */
+@media screen and (max-width: 285px) {
+     .container {
+          padding-top: 40px;
+     }
 }
-
-textarea {
-  height: 200px;
+/* to readjust the LinkedIn Github and StackOverflow connect links in the navbar */
+@media screen and (max-width: 400px) {
+     .navbar-img {
+          width: 100%;
+          height: auto;
+     }
 }
+/* MEDIA QUERIES
+Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {}
 
-input[type="submit"] {
-  padding: 10px 30px;
-  font-size: 18px;
-  color: #ffffff;
-  cursor: pointer;
-  background: #bf1a00;
-  border: 0 none;
+Medium devices (tablets, 768px and up)*/
+@media screen and (min-width: 768px) {
+     #about-image {
+          max-width: 54%;
+     }
+     #connect-drop {
+          width: 500px;
+     }
+     .connects {
+          font-size: 1.2em;
+     }
 }
-
-@media screen and (max-width: 980px) {
-  /*Styling for ABOUT INDEX Page for less then 980px screens*/
-  #topnavbuttons {
-    right: 5%;
-  }
-  #topleftname {
-    padding: 25px 0px 25px 0px; /*styling the headings the same on on lower screens*/
-    width: 250px;
-    left: 5%;
-  }
-  #biosection {
-    /*lowers the size of the main page container to fit page on 980 screens better*/
-    width: 740px;
-  }
-  #myaboutmeimage {
-    padding: 30px; /*resize picture to fit*/
-    width: 40%;
-    height: auto;
-  }
-  footer {
-    padding: 30px 0px 30px 0px;
-  }
-  /*styling for portfolio page*/
-  #portfoliomain {
-    width: 550px;
-    margin-left: 10%;
-  }
-  #portmainbg,
-  #contmainbg {
-    /*edit to contact and port page bg padding to show more background*/
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  #contactformbox {
-    /*makes the contact form smaller on 980 screens to fit*/
-    width: 600px;
-  }
+/*
+Large devices (desktops, 992px and up)*/
+@media screen and (min-width: 992px) {
+     #about-image {
+          max-width: 35%;
+     }
 }
-@media screen and (max-width: 768px) {
-  #myaboutmeimage {
-    /*resize image again to fit smaller screens better*/
-    width: 60%;
-  }
-  #biosection {
-    width: 600px;
-  }
-  #topleftname {
-    left: 2%;
-  }
-  #topnavbuttons {
-    right: 2%;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  #biosection {
-    width: 80%; /*about me page adjustments*/
-  }
-  #myaboutmeimage {
-    /*resize image again to fit smaller screens better*/
-    width: 100%;
-  }
-  #topheader {
-    position: static; /*make the header static, find a way to get it to kick the nav below it*/
-    width: 100%;
-    height: 10rem;
-  }
-  main {
-    margin-top: 10%;
-  }
-
-  #topleftname {
-    /*Set the name to fill page*/
-    height: 5.75rem;
-    width: 100%;
-    margin: 0rem;
-  }
-  #topnavbuttons {
-    /*have to get the nav buttons to fall below the name on small screens*/
-    position: relative;
-    top: 5rem;
-    margin: 1rem 4rem 1rem 0rem;
-    right: 6%;
-  }
-  /*need to modify portfolio page on small screens to bump pics into one collumn*/
-  #portfoliomain {
-    width: 75%;
-  }
-
-  /*resize the contact page boxes to fit small screens*/
-  #contactformbox {
-    width: 80%;
-  }
-}
+/* Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {} */

@@ -1,0 +1,5 @@
+ //jQuery Document Ready function
+$(()=>{
+
+
+});
