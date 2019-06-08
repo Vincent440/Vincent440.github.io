@@ -1,9 +1,8 @@
 # _Vince Shury's Github Portfolio Page._
 
-This page utilizes HTML CSS And CSS Media Queries to make it responsive to all viewport sizes. 
+This page utilizes Bootstrap 4.3, HTML5, CSS3, And Media Queries to make it responsive to all viewport sizes. 
 
 ---
-
 
 ### Check Out My Profile & Portfolio Here!
 

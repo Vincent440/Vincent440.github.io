@@ -1,62 +1,106 @@
-<!DOCTYPE html>
-<html lang="en-US">
+<!doctype html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <!--Viewport tag for mobile responsiveness-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vince's About me</title><!-- my browser tab title -->
-    <!--link to reset.css-->
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
-    <!-- the link to my style.css file -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <!--link to my JavaScript File in my javascript folder, myScript.js-->
-    <script src="assets/javascript/myScript.js"></script>
-    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i&display=swap" rel="stylesheet">
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <title>About Vince</title>
   </head>
-  <body>
-    <!-- #ID topheader in Header element to keep the items inline with the text -->
-    <header id="topheader">
-      <!-- my name with a heading in the header with the ID topleftname -->
-      <h1 id="topleftname">Vincent Shury</h1>
-      <!-- Buttons connecting to the other pages With the ID topnavbuttons -->
-      <nav id="topnavbuttons">
-        <!--each button to other docs, has classname navbuttons-->
-        <a href="index.html" class="navbuttons">About</a>|
-        <a href="portfolio.html" class="navbuttons">Portfolio</a>|
-        <a href="contact.html" class="navbuttons">Contact</a>
-      </nav>
-    </header>
-    <!-- my about me section in main element to hold in the background image -->
-    <main>
-      <div id="biosection">
-        <!-- The heading to my body section -->
-        <h1 id="header1">About Me</h1>
-        <!-- my about me image of what should be me -->
-        <img src="assets/images/vince.jpg" id="myaboutmeimage" alt="Vince Shury" />
-        <!-- my two paragraphs describing myself with the biopara class to modify them-->
-        <p class="biopara">
-          My full name is Vincent Shury, However I prefer to just be called Vince. I am entirely new
-          to computer programming,the only computer language I tried to learn before was Python and
-          I did not get very far. I'm very confident with this course I will learn many new computer
-          languages and the tools I need to be a great developer, (Google & W3 Schools). One thing I
-          am familiar with is computer hardware, as of now I am on my fifth computer build, however
-          I still need a graphics card for my computer but I am not worried about that just yet with
-          all this time I need for web developement. (I am just waiting for the new line of AMD
-          GPUs.)
-        </p>
-        <br /><!--line break between paragraphs to put seperation in them-->
-        <p class="biopara">
-          Outside of computers I love the outdoors and camping. As of 2017 I am a motorcycle rider
-          who enjoys riding whenever there is a clear nice day. I have all the gear I need to keep
-          me safe and dry on my rides just about any day of the year. When it comes to camping I
-          always opt to use a lightweight hammock with a cover. The hammock is super light and easy
-          to set up without having to stay on the ground on those wet days! I am looking forward to
-          those clear starry summer nights.
-        </p>
-      </div>
-    </main>
-    <!-- my copyright inside in my footer for each page -->
-    <footer>Copyright &copy; 2019 Vince Shury<a href="https://github.com/Vincent440"> Github Page</a></footer>
-  </body>
+  <body class="py-3 my-5">
+
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark red-bg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fixed-navbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="fixed-navbar">
+          <ul class="navbar-nav mr-auto mt-2">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle p-1 mx-2" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                <i class="fas fa-user-friends"> Connect</i>
+              </a>
+              <div class="dropdown-menu">
+                <h4 class="dropdown-header connects font-weight-bold"><i class="fas fa-user-friends"> Connect With Me </i> <i class="fas fa-thumbs-up ml-2"></i></h4>
+                <div class="dropdown-divider"></div>
+                <div id="connect-drop" class="row no-gutters mx-auto justify-content-center m-0 mt-md-3">
+                    <div class="col-4 text-center mx-auto">
+                      <figure class="figure">
+                        <a title="View my Github profile" href="https://github.com/Vincent440">
+                          <img src="./assets/images/github-128.png" class="figure-img navbar-img img-thumbnail" alt="Github">
+                          <figcaption class="figure-caption text-center connects"><i class="fab fa-github"> Github</i></figcaption>
+                        </a>
+                      </figure>
+                    </div>
+                    <div class="col-4 text-center mx-auto">
+                      <figure class="figure">
+                        <a title="View my Linked-in profile" href="https://www.linkedin.com/in/vincent-shury/">
+                          <img src="./assets/images/linkedin-128.png" class="figure-img navbar-img img-thumbnail" alt="LinkedIn">
+                          <figcaption class="figure-caption text-center connects"><i class="fab fa-linkedin"> Linked-in</i></figcaption>
+                        </a>
+                      </figure>
+                    </div>
+                    <div class="col-4 text-center mx-auto">
+                      <figure class="figure">
+                        <a title="View my Stack Overflow profile" href="https://stackoverflow.com/users/10886832/vincent-shury">
+                          <img src="./assets/images/stackoverflow-128.png" class="figure-img navbar-img img-thumbnail" alt="Stack Overflow">
+                          <figcaption class="figure-caption text-center connects"><i class="fab fa-stack-overflow"> Stack Overflow</i></figcaption>
+                        </a>
+                      </figure>
+                    </div>
+                  </div>
+              </div>
+            </li>
+            <li class="nav-item active mx-2">
+              <a class="nav-link p-1 disabled" href="./index.html"><i class="fas fa-book-open"> About Me</i></i></a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link p-1" href="./port.html"><i class="fas fa-briefcase"> Portfolio</i></a>
+            </li>
+          </ul>
+        </div>
+      <a class="navbar-brand" href="#"><i class="fas fa-laptop-code"> Vince Shury</i> <i class="fas fa-motorcycle"></i></a>
+    </nav>
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-sm-11 col-md-10">
+            <div class="card text-center">
+              <div class="card-header">
+                <h3>About Me</h3>
+              </div>
+              <div class="card-body p-3">
+                <img id="about-image" class="p-3 float-left" src="./assets/images/vince.jpg" alt="Vince Shury Image in about me">
+                <h5 class="card-title">Vince Shury <small class="text-muted">Full Stack Web Developer</small></h5>
+                <hr>
+                <p class="card-text">
+                  Introducted to software development in January 2019.<br> 
+                  I am learning the foundations of full stack web development at <br><i>Case Western Reserve University Coding Bootcamp.</i><br> 
+                  Open to both Front-end and Back-end web development.
+                </p>
+                <p>
+                  Currently have experience with REACT.js HTML5, CSS3, JavaScript, NodeJS, MySQL, MongoDB, & Git version control.
+                  Have worked with the following libraries/Modules: Bootstrap 4.3, jQuery, Firebase, Express, Sequelize, & Mongoose.</p>
+              </div>
+            </div>
+            <!--/Card div -->
+        </div>
+        <!--/Card column-->
+       </div>
+    </div>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- My JavaScript -->
+    <script src="./assets/js/index.js"></script>
+</body>
 </html>
