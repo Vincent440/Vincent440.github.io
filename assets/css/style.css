@@ -1,14 +1,6 @@
 /*
 Extra small devices (portrait phones, less than 576px)
-No media query for `xs` since this is the default in Bootstrap
-*/
-
-
-
-
-
-
-/* Elements */
+No media query for `xs` since this is the default in Bootstrap */
 body {
      background: url("../images/gaming-pattern.png");
 }
@@ -29,21 +21,11 @@ figure:hover figcaption {
      height: 70px;
 }
 /* Background theme classes */
-.green-bg { 
-     background-color: rgba(126, 147, 88, 1);
-}
-.grey-bg { 
-     background-color: rgba(122, 111, 97, 1);
-}
-.eraser-bg {
-     background-color: rgba(163, 138, 138, 1);
-}
-.orange-bg {
-     background-color: rgb(129, 43, 3);
-}
-.red-bg {
-     background-color: rgb(149, 6, 6);
-}
+.green-bg { background-color: rgba(126, 147, 88, 1);}
+.grey-bg { background-color: rgba(122, 111, 97, 1);}
+.eraser-bg {background-color: rgba(163, 138, 138, 1);}
+.orange-bg {background-color: rgb(129, 43, 3);}
+.red-bg {background-color: rgb(149, 6, 6);}
 
 /* IDS */
 #about-image {
@@ -66,10 +48,7 @@ figure:hover figcaption {
           height: auto;
      }
 }
-/* MEDIA QUERIES
-Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {}
-
+/* MEDIA QUERIES Small devices (landscape phones, 576px and up) @media (min-width: 576px) {}
 Medium devices (tablets, 768px and up)*/
 @media screen and (min-width: 768px) {
      #about-image {
@@ -82,8 +61,7 @@ Medium devices (tablets, 768px and up)*/
           font-size: 1.2em;
      }
 }
-/*
-Large devices (desktops, 992px and up)*/
+/* Large devices (desktops, 992px and up)*/
 @media screen and (min-width: 992px) {
      #about-image {
           max-width: 35%;
