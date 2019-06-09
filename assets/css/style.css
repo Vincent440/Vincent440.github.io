@@ -8,12 +8,14 @@ p {
      font-family: 'Libre Baskerville', serif;
 }
 figure:hover {
-     border-style: outset;
-     background-color: rgb(24, 78, 255);
+     padding:.5em;
+     border: .4em outset red;
+     background-color: rgb(149, 6, 6);
 }
 figure:hover figcaption {
      color: white;
 }
+
 /* classes */
 .navbar-img {
      margin: 0px!important;
@@ -34,6 +36,7 @@ figure:hover figcaption {
 }
 #connect-drop {
      width: 90%;
+     min-height: 175px;
 }
 /* Keep the container always below the navbar at any sizing */
 @media screen and (max-width: 285px) {
@@ -55,7 +58,7 @@ Medium devices (tablets, 768px and up)*/
           max-width: 54%;
      }
      #connect-drop {
-          width: 500px;
+          width: 550px;
      }
      .connects {
           font-size: 1.2em;

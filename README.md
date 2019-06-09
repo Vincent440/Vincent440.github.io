@@ -15,6 +15,7 @@ I learning MERN full stack web development at Case Western Reserve Universit Cod
 * HTML5
 * CSS3
 * JavaScript
+* Git & Gitlab version control systems
 
 I am comfortable with both back-end and front-end web development, as I have worked on both in the duration of the bootcamp.
 
