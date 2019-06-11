@@ -43,9 +43,10 @@ $(()=>{
     const crystals = new App("Crystal Collector","./assets/images/apps/crystalgame.png",
     "https://github.com/Vincent440/Unit-4-game", true , "https://vincent440.github.io/Unit-4-game/");
 
-    
+    const reactClicks = new App("React Reactions!","./assets/images/apps/reactclicker.png",
+    "https://github.com/Vincent440/react-memory-game", true , "https://vincent440.github.io/react-memory-game/");
 
-    const appsArray = [ localeyes , eMarketplace , techScraper , sequelBurger , eatBurger ,
+    const appsArray = [ localeyes , eMarketplace, reactClicks , techScraper , sequelBurger , eatBurger ,
      friend , train, trivia, gifapp , psychic, crystals];
 
     appsArray.forEach(app => {

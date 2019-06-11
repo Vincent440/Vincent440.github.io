@@ -26,8 +26,8 @@ figure:hover figcaption {
 .green-bg { background-color: rgba(126, 147, 88, 1);}
 .grey-bg { background-color: rgba(122, 111, 97, 1);}
 .eraser-bg {background-color: rgba(163, 138, 138, 1);}
-.orange-bg {background-color: rgb(129, 43, 3);}
-.red-bg {background-color: rgb(149, 6, 6);}
+.darkred-bg {background-color: rgb(82, 10, 1);}
+.red-bg {background-color: rgb(128, 0, 0);}
 
 /* IDS */
 #about-image {
