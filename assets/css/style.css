@@ -11,6 +11,7 @@ figure:hover {
      padding:.5em;
      border: .4em outset red;
      background-color: rgb(149, 6, 6);
+     border-radius: 20%;
 }
 figure:hover figcaption {
      color: white;
