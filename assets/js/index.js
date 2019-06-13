@@ -50,7 +50,7 @@ $(()=>{
      friend , train, trivia, gifapp , psychic, crystals];
 
     appsArray.forEach(app => {
-        let cardDiv = $("<div class='card p-0 col-sm-6 col-lg-4'></div>");
+        let cardDiv = $("<div class='card p-1 col-sm-6 col-lg-4 col-xl-3'></div>");
         let cardHeader = $("<div class='card-header'>").html(`<h4 class="card-title">${app.name}</h4>`);
         let cardBody = $("<div class='card-body'>").html(`<img class="card-img" src="${app.img}" alt="${app.name}">`);
         let cardFooter = $("<div class='card-footer btn-group'>");
