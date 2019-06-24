@@ -46,7 +46,10 @@ $(()=>{
     const reactClicks = new App("React Reactions!","./assets/images/apps/reactclicker.png",
     "https://github.com/Vincent440/react-memory-game", true , "https://vincent440.github.io/react-memory-game/");
 
-    const appsArray = [localeyes,eMarketplace,reactClicks,techScraper,sequelBurger,eatBurger,friend,train,trivia,gifapp,psychic,crystals];
+    const reactBooks = new App("React Google Books","./assets/images/apps/react-google-books.png",
+    "https://github.com/Vincent440/react-books-search",true,"https://googlereactbooks.herokuapp.com/");
+
+    const appsArray = [localeyes,eMarketplace,reactBooks,reactClicks,techScraper,sequelBurger,eatBurger,friend,train,trivia,gifapp,psychic,crystals];
 
     appsArray.forEach(app => {
         let cardDiv = $("<div class='card p-1 col-sm-6 col-lg-4 col-xl-3'></div>");
