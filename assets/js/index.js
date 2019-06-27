@@ -49,7 +49,10 @@ $(()=>{
     const reactBooks = new App("React Google Books","./assets/images/apps/react-google-books.png",
     "https://github.com/Vincent440/react-books-search",true,"https://googlereactbooks.herokuapp.com/");
 
-    const appsArray = [localeyes,eMarketplace,reactBooks,reactClicks,techScraper,sequelBurger,eatBurger,friend,train,trivia,gifapp,psychic,crystals];
+    const hotelWorx = new App("Hotel Worx","./assets/images/apps/hotelworx.png",
+    "https://github.com/Vincent440/hotel-worx",true,"https://hotelworx.herokuapp.com/");
+
+    const appsArray = [hotelWorx,localeyes,eMarketplace,reactBooks,reactClicks,techScraper,sequelBurger,eatBurger,friend,train,trivia,gifapp,psychic,crystals];
 
     appsArray.forEach(app => {
         let cardDiv = $("<div class='card p-1 col-sm-6 col-lg-4 col-xl-3'></div>");
