@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 $(()=>{
     class App {
         constructor(name, img, repo, hosted = false , hostedUrl = "" ){
