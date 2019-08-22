@@ -16,10 +16,10 @@ $(()=>{
     "https://github.com/Vincent440/emarketplace", true,"https://emarketplace.herokuapp.com/");
 
     const techScraper = new App("Tech Scraper","./assets/images/apps/techscraper.png",
-    "https://github.com/Vincent440/mongoose-cheerio-scraper",true,"https://secret-atoll-83145.herokuapp.com/");
+    "https://github.com/Vincent440/mongoose-cheerio-scraper",true,"https://cheerio-web-scraper.herokuapp.com");
 
     const sequelBurger = new App("Sequelized Burger","./assets/images/apps/sequelburger.png",
-    "https://github.com/Vincent440/sequelized-burger",true,"https://obscure-atoll-61774.herokuapp.com/");
+    "https://github.com/Vincent440/sequelized-burger",true,"https://sequelized-eat-the-burger.herokuapp.com");
 
     const eatBurger = new App("MySQL Eat The Burger","./assets/images/apps/burgerapp.png",
     "https://github.com/Vincent440/burger",true,"https://mysql-eat-the-burger-app.herokuapp.com/");
