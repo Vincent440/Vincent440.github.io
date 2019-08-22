@@ -15,7 +15,7 @@ $(()=>{
     const eMarketplace = new App("eMarketplace","./assets/images/apps/emarketplace.png",
     "https://github.com/Vincent440/emarketplace", true,"https://emarketplace.herokuapp.com/");
 
-    const techScraper = new App("Tech Scraper","./assets/images/apps/techscraper.png",
+    const techScraper = new App("Cheerio Web Scraper","./assets/images/apps/techscraper.png",
     "https://github.com/Vincent440/mongoose-cheerio-scraper",true,"https://cheerio-web-scraper.herokuapp.com");
 
     const sequelBurger = new App("Sequelized Burger","./assets/images/apps/sequelburger.png",
