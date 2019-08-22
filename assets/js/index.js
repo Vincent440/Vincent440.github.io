@@ -42,7 +42,7 @@ $(()=>{
     const crystals = new App("Crystal Collector","./assets/images/apps/crystalgame.png",
     "https://github.com/Vincent440/Unit-4-game", true , "https://vincent440.github.io/Unit-4-game/");
 
-    const reactClicks = new App("React Reactions!","./assets/images/apps/reactclicker.png",
+    const reactClicks = new App("React Memory Game","./assets/images/apps/reactclicker.png",
     "https://github.com/Vincent440/react-memory-game", true , "https://vincent440.github.io/react-memory-game/");
 
     const reactBooks = new App("React Google Books","./assets/images/apps/react-google-books.png",
