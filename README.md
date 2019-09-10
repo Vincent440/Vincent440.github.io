@@ -14,6 +14,7 @@ I learned MERN full stack web development while at the _Case Western Reserve Uni
 This page utilizes Bootstrap 4.3, HTML5, CSS3, And Media Queries to make it responsive to all viewport sizes. 
 
 ---
+<<<<<<< HEAD
 
 ## Contact me || Connect With me || View more
 
@@ -27,3 +28,17 @@ This page utilizes Bootstrap 4.3, HTML5, CSS3, And Media Queries to make it resp
 
 *Connect with me*
 * [LinkedIn](https://www.linkedin.com/in/vincent-shury/)
+=======
+
+## **Vincent Shury**
+#### _Full Stack Web Developer_
+
+---
+
+Contact me here: 
+* [Vincent Shury LinkedIn Profile](https://www.linkedin.com/in/vincent-shury/)
+
+View more of my work:
+* [Github Profile](https://github.com/Vincent440)
+* Return to my [Portfolio page](https://vincent440.github.io/) 
+>>>>>>> 8e27109c5dfcdabf75a932ef068313c772bdc147
