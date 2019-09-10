@@ -2,25 +2,28 @@
 
 Hi, I'm Vincent Shury, Welcome to my portfolio page.
 
-I am a junior web developer as of January 2019 I was introducted to software development. 
+I am a Full Stack Web Developer.
 
-I learning MERN full stack web development at Case Western Reserve Universit Coding Bootcamp. 
-
-* MongoDb
-* MySQL
-* Express
-* REACT.js
-* Node.js
-
-* HTML5
-* CSS3
-* JavaScript
+I learned MERN full stack web development while at the _Case Western Reserve University Coding Boot Camp_ January 14th - July 27th. 
+* HTML5, CSS3
+* MongoDB & MySQL
+* Express.js & Node.js
+* JavaScript, React.js, & jQuery
 * Git & Gitlab version control systems
 
 This page utilizes Bootstrap 4.3, HTML5, CSS3, And Media Queries to make it responsive to all viewport sizes. 
 
-### Check Out My Profile & Portfolio Here!
+---
 
-Please go to my [Github Profile](https://github.com/Vincent440) to see my repositories.
+## Contact me || Connect With me || View more
 
-[Click here](https://vincent440.github.io/) to view the live version of this page on github.
+*View more* 
+* [Github Profile](https://github.com/Vincent440)
+* [Portfolio](https://vincent440.github.io/)
+
+*Contact Me*
+* Email [Vince Shury](mailto:vinceshury@gmail.com)
+* Call or Text [1 (216) 954-0020](tel:+1-216-954-0020)
+
+*Connect with me*
+* [LinkedIn](https://www.linkedin.com/in/vincent-shury/)

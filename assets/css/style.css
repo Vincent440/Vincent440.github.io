@@ -31,10 +31,7 @@ figure:hover figcaption {
 .red-bg {background-color: rgb(128, 0, 0);}
 
 /* IDS */
-#about-image {
-     max-width: 100%;
-     height: auto;
-}
+
 #connect-drop {
      width: 90%;
      min-height: 175px;
@@ -55,9 +52,6 @@ figure:hover figcaption {
 /* MEDIA QUERIES Small devices (landscape phones, 576px and up) @media (min-width: 576px) {}
 Medium devices (tablets, 768px and up)*/
 @media screen and (min-width: 768px) {
-     #about-image {
-          max-width: 54%;
-     }
      #connect-drop {
           width: 550px;
      }
@@ -66,10 +60,6 @@ Medium devices (tablets, 768px and up)*/
      }
 }
 /* Large devices (desktops, 992px and up)*/
-@media screen and (min-width: 992px) {
-     #about-image {
-          max-width: 35%;
-     }
-}
+/* @media screen and (min-width: 992px) {} */
 /* Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {} */
