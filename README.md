@@ -2,9 +2,7 @@
 
 Hi, I'm Vincent Shury, Welcome to my portfolio page.
 
-I am a junior web developer as of January 2019 I was introducted to software development. 
-
-I learning MERN full stack web development at Case Western Reserve Universit Coding Bootcamp. 
+I am a certified in MERN full stack web developement from the Case Western Reserve University Coding Bootcamp. 
 
 * MongoDb
 * MySQL
