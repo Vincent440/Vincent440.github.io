@@ -1,29 +1,40 @@
-# Vincent Shury Portfolio Page. 
+# Vincent Shury Portfolio
 
-Hi, I'm Vincent Shury, Welcome to my portfolio page.
+Hi welcome to my portfolio page.
 
 I am a Full Stack Web Developer.
 
-I learned MERN full stack web development while at the _Case Western Reserve University Coding Boot Camp_ January 14th - July 27th. 
+I learned MERN full stack web development while at the _Case Western Reserve University Coding Boot Camp_ January 14th - July 27th.
+some of the skills I learned during that time include: 
 * HTML5, CSS3
 * MongoDB & MySQL
 * Express.js & Node.js
 * JavaScript, React.js, & jQuery
-* Git & Gitlab version control systems
+* Git version control systems
 
-This page utilizes Bootstrap 4.3, HTML5, CSS3, And Media Queries to make it responsive to all viewport sizes. 
+## Getting Started
 
----
+[Vince Shury Github Portfolio](https://vincent440.github.io) - Github pages deployment
 
-## Contact me || Connect With me || View more
+### Installing
 
-*View more* 
-* [Github Profile](https://github.com/Vincent440)
-* [Portfolio](https://vincent440.github.io/)
+clone the application 
+```
+git clone https://github.com/Vincent440/Vincent440.github.io.git
+```
+* Open up the `index.html` or `port.html`
 
-*Contact Me*
-* Email [Vince Shury](mailto:vinceshury@gmail.com)
-* Call or Text [1 (216) 954-0020](tel:+1-216-954-0020)
+## Built With
 
-*Connect with me*
-* [LinkedIn](https://www.linkedin.com/in/vincent-shury/)
+* [Bootstrap 4.3](https://getbootstrap.com/) - Used for responsive web design.
+* [Font Awesome](https://fontawesome.com/) - Icons for a friendly UI
+* [Google Fonts](https://fonts.google.com/) - Fonts for styling
+
+
+## Author
+
+* **Vincent Shury** - <small>Full stack web developer</small>
+    * [Github Profile](https://github.com/Vincent440)
+    * [LinkedIn](https://www.linkedin.com/in/vincent-shury/) - Connect with me on LinkedIn
+    * [vinceshury@gmail.com](mailto:vinceshury@gmail.com) - Feel free to email me anytime.
+    * [1(216) 954-0020](tel:+1-216-954-0020) - Call or text M-F (8.am - 5.pm) EST time
