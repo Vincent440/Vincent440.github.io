@@ -21,8 +21,8 @@ $(()=>{
     const sequelBurger = new App("Sequelized Burger","./assets/images/apps/sequelburger.png",
     "https://github.com/Vincent440/sequelized-burger",true,"https://sequelized-eat-the-burger.herokuapp.com");
 
-    const eatBurger = new App("MySQL Eat The Burger","./assets/images/apps/burgerapp.png",
-    "https://github.com/Vincent440/burger",true,"https://mysql-eat-the-burger-app.herokuapp.com/");
+    // const eatBurger = new App("MySQL Eat The Burger","./assets/images/apps/burgerapp.png",
+    // "https://github.com/Vincent440/burger",true,"https://mysql-eat-the-burger-app.herokuapp.com/");
 
     const friend = new App("Friend Finder","./assets/images/apps/friendfinder.png",
     "https://github.com/Vincent440/friendfinder",true,"https://vince-friendfinder.herokuapp.com/");
@@ -36,8 +36,8 @@ $(()=>{
     const gifapp = new App("Giphy App","./assets/images/apps/giphyapp.png",
     "https://github.com/Vincent440/jif-tastic-api", true, "https://vincent440.github.io/jif-tastic-api/" );
 
-    const psychic = new App("Psychic Game","./assets/images/apps/psychicgame.png",
-    "https://github.com/Vincent440/guess-a-letter", true , "https://vincent440.github.io/guess-a-letter/");
+    // const psychic = new App("Psychic Game","./assets/images/apps/psychicgame.png",
+    // "https://github.com/Vincent440/guess-a-letter", true , "https://vincent440.github.io/guess-a-letter/");
 
     const crystals = new App("Crystal Collector","./assets/images/apps/crystalgame.png",
     "https://github.com/Vincent440/jquery-crystal-game", true , "https://vincent440.github.io/jquery-crystal-game/");
@@ -51,7 +51,7 @@ $(()=>{
     const hotelWorx = new App("Hotel Worx","./assets/images/apps/hotelworx.png",
     "https://github.com/Vincent440/hotel-worx",true,"https://hotel-worx.herokuapp.com/");
 
-    const appsArray = [hotelWorx,localeyes,eMarketplace,reactBooks,reactClicks,techScraper,sequelBurger,eatBurger,friend,train,trivia,gifapp,psychic,crystals];
+    const appsArray = [hotelWorx,localeyes,eMarketplace,reactBooks,reactClicks,techScraper,sequelBurger,/*eatBurger,*/friend,train,trivia,gifapp,crystals];
 
     appsArray.forEach(app => {
         let cardDiv = $("<div class='card p-1 col-sm-6 col-lg-4 col-xl-3'></div>");

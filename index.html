@@ -11,7 +11,7 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i&display=swap" rel="stylesheet">
     <!-- Font-Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link crossorigin="anonymous" rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"  integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -75,15 +75,15 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 col-md-11">
-            <div class="card text-center">
-              <div class="card-header">
-                <h1>About Me</h1>
+            <div class="card">
+              <div class="card-header shadow">
+                <h1 class="pl-3">About Me</h1>
               </div>
               <div class="card-body p-3">
-                <div class="row">
-                  <div class="col-12">
-                    <h3 class="card-title">Vincent Shury </h3>
-                    <h6 class="text-muted small">Full Stack Web Developer</h6>
+                <div class="row shadow mb-3">
+                  <div class="col-12 pl-3 mb-3">
+                    <h1 class="card-title pl-3">Vincent Shury </h1>
+                    <h6 class="card-subtitle text-muted pl-3 ">Full Stack Web Developer</h6>
                   </div>
                 </div>
                 <div class="row p-2">
@@ -91,25 +91,35 @@
                     <img id="about-image" class="img-thumbnail" src="./assets/images/vincent.png" alt="Vincent Shury Bio image">
 
                   </div>
-                  <div class="col-md-8">
-                      <p class="card-text">
+                  <div class="col-md-8 pl-3 shadow-sm">
+                      <h4 class="card-title pl-3 shadow">Summary</h4>
+                      <p class="card-text shadow-sm p-3 mb-3">
                           Full stack web developer certified by the <br><i>Case Western Reserve University Coding Bootcamp.</i><br> 
                           Open to both Front-end and Back-end web development.
                         </p>
-                        <p class="card-text">
-                          Current skills include HTML5, CSS3, JavaScript, jQuery, Bootstrap, Express.js,
-                           React.js, Node.js, Data Modelling, MongoDB, MySQL, Command Line, Java, Git</p>
+                      
+                        <h4 class="card-title pl-3 shadow">Skills</h4>
+                        <p class="card-text border text-center shadow-sm p-3 mb-3">
+                          HTML5, CSS3, JavaScript, jQuery, Bootstrap, Express.js,
+                          React.js, Node.js, Data Modelling, MongoDB, MySQL, Command Line, Java, Git
+                        </p>
+                      
+
                   </div>
                 </div>
               </div>
               <div class="card-footer">
-                <h6 class="card-title">Contact Me</h6>
-                <address class="border">
-                    Email: <a class="badge badge-info" href="mailto:vinceshury@gmail.com" title="Draft new email to Vincent Shury"><i class="fas fa-link"> vinceshury@gmail.com</i></a>
+                <h4 class="card-title pl-3 shadow">Contact Me</h4>
+                <address class="border pl-3 shadow-sm">
+                    Email:                     
+                      <a class="badge badge-dark" href="mailto:vinceshury@gmail.com" title="Draft new email to Vincent Shury">
+                      vinceshury@gmail.com
+                    </a>
                     <br>
-                    Mobile: <a class="badge badge-secondary" href="tel:+1-216-954-0020">1 (216) 954-0020</a>
+                    Mobile: 
+                    <a class="badge badge-dark" href="tel:+1-216-954-0020" title="Call or Text Vincent Shury">1 (216) 954-0020</a>
                     <br>
-                    Ann Arbor area, MI, USA
+                    Ann Arbor, MI, USA 48104
                 </address>
               </div>
             </div>
