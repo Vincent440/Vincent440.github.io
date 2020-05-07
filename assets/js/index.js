@@ -51,8 +51,8 @@ $(()=>{
     "https://github.com/Vincent440/hotel-worx",true,"https://hotel-worx.herokuapp.com/");
     
     const appsArray = [
-        hotelWorx, localeyes, eMarketplace, reactBooks,
-        reactClicks, techScraper, sequelBurger, friend,
+        hotelWorx, eMarketplace, reactBooks, reactClicks,
+        techScraper, sequelBurger, friend, localeyes,
         train, trivia, gifapp, crystals
     ];
     
