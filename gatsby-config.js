@@ -20,10 +20,6 @@ module.exports = {
         name: "Portfolio",
         link: "/portfolio",
       },
-      {
-        name: "Blog",
-        link: "/blog/",
-      },
     ],
   },
   plugins: [
@@ -36,26 +32,6 @@ module.exports = {
       options: {
         path: `${__dirname}/assets/images/`,
         name: `images`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/blog`,
-        name: `blog`,
-      },
-    },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 800,
-            },
-          },
-        ],
       },
     },
     {
