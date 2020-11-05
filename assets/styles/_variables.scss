@@ -1,0 +1,28 @@
+//--- Theme Color SASS Variables ---
+$primary: rgba(149, 0, 0, 0.8);
+// $secondary: rgba(207, 207, 207, 0.8);
+$success: rgba(0, 133, 33, 0.8);
+$info: rgba(25, 209, 233, 0.8);
+$warning: rgba(206, 138, 13, 0.8);
+$danger: rgba(207, 8, 8, 0.8);
+$light: rgb(240, 240, 240);
+$dark: rgb(55, 0, 0);
+
+$enable-rounded: true;
+$enable-shadows: true;
+$enable-gradients: true;
+$enable-responsive-font-sizes: true;
+
+// Set to true to show warnings when using any of the deprecated mixins
+// and functions that are planned to be removed in v5.
+$enable-deprecation-messages: true;
+
+$card-cap-bg: $dark;
+$card-cap-color: $light;
+
+$jumbotron-bg: $dark;
+$jumbotron-color: $light;
+
+body {
+  background: url("../images/gaming-pattern.png");
+}
