@@ -59,7 +59,9 @@ export default function Layout({ location, children }) {
         </Navbar.Collapse>
       </Navbar>
 
-      <Container fluid="md" className='my-3'>{children}</Container>
+      <Container fluid="md" className="my-3">
+        {children}
+      </Container>
     </>
   )
 }

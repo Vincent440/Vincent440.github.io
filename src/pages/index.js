@@ -95,9 +95,7 @@ const Home = ({ location, data }) => {
             <Card.Body>
               <Card>
                 <Card.Header>
-                  <h3>
-                    Contact Me
-                  </h3>
+                  <h3>Contact Me</h3>
                 </Card.Header>
                 <Card.Body>
                   <ListGroup>
@@ -132,9 +130,7 @@ const Home = ({ location, data }) => {
                   </ListGroup>
                 </Card.Body>
               </Card>
-              <Card.Body>
-
-              </Card.Body>
+              <Card.Body></Card.Body>
 
               <Social />
             </Card.Body>

@@ -19,7 +19,10 @@ const NotFoundPage = ({ data, location }) => {
               </Card.Title>
             </Card.Header>
             <Card.Body>
-              <p>Sorry that page wasn't found, try again or navigate back to the home page.</p>
+              <p>
+                Sorry that page wasn't found, try again or navigate back to the
+                home page.
+              </p>
             </Card.Body>
           </Card>
         </Col>
