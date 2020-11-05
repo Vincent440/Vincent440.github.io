@@ -38,4 +38,3 @@ git clone https://github.com/Vincent440/Vincent440.github.io.git
     * [Github Profile](https://github.com/Vincent440)
     * [LinkedIn](https://www.linkedin.com/in/vincent-shury/) - Connect with me on LinkedIn
     * [vinceshury@gmail.com](mailto:vinceshury@gmail.com) - Feel free to email me anytime.
-    * [1 (216) 954-0020](tel:+1-216-954-0020) - Call or text M-F (9 am - 5 pm) EST time
