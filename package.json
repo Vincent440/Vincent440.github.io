@@ -7,7 +7,7 @@
   "author": "Vincent Shury",
   "scripts": {
     "build": "gatsby build",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "gatsby build && gh-pages -d public -b master",
     "develop": "gatsby develop",
     "dev": "gatsby develop -H 0.0.0.0 -p 8000 -o",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
