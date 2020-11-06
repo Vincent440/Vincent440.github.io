@@ -2,7 +2,6 @@ require("dotenv").config()
 const { githubApiQuery } = require("./github-api")
 
 module.exports = {
-  pathPrefix: "/",
   siteMetadata: {
     title: `Vincent Shury`,
     siteUrl: `https://www.vshury.com`,
