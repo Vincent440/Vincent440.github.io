@@ -57,25 +57,23 @@ const Projects = () => {
               <Card.Text>{project.description}</Card.Text>
             </Card.Body>
 
-            <ButtonGroup className="my-2 py-0 mx-2 px-0">
+            <ButtonGroup className="my-2 mx-2 px-0">
               <Button
-                className="px-0 py-1"
+                className="px-0 py-2"
                 variant="primary"
                 target="_blank"
                 rel="noreferrer"
                 href={project.homepageUrl}
-                size="lg"
               >
-                <Link45deg size={30} className="mr-2" />
+                <Link45deg size={26} className="mr-2" />
                 Website
               </Button>
               <Button
-                className="px-0 py-1"
+                className="px-0 py-2"
                 variant="secondary"
                 target="_blank"
                 rel="noreferrer"
                 href={project.url}
-                size="lg"
               >
                 <GitHubIcon />
                 GitHub
