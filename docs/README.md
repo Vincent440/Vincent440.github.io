@@ -20,8 +20,8 @@ if you want to get the project running locally.
 
 ## Author
 
-- **Vincent Shury** - <small>Full Stack Web Developer</small>
-  - [vincentshury.com](https://www.vincentshury.com) - Developer Portfolio with resume PDF
-    - [Github Profile](https://github.com/Vincent440) - GitHub repositories.
-    - [LinkedIn](https://www.linkedin.com/in/vincent-shury/) - Connect on LinkedIn
-    - [vinceshury@gmail.com](mailto:vinceshury@gmail.com) - Please feel free to contact me by email.
+**Vincent Shury**, <small>Full-stack web developer</small>
+- [vshury.com](https://www.vshury.com) - Developer portfolio
+- [Github Profile](https://github.com/Vincent440) - GitHub profile
+- [LinkedIn](https://www.linkedin.com/in/vincent-shury/) - LinkedIn profile
+- [vinceshury@gmail.com](mailto:vinceshury@gmail.com) - Please feel free to contact me by email.
