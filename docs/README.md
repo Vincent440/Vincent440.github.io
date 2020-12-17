@@ -21,6 +21,7 @@ if you want to get the project running locally.
 ## Author
 
 **Vincent Shury**, <small>Full-stack web developer</small>
+
 - [vshury.com](https://www.vshury.com) - Developer portfolio
 - [Github Profile](https://github.com/Vincent440) - GitHub profile
 - [LinkedIn](https://www.linkedin.com/in/vincent-shury/) - LinkedIn profile

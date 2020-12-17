@@ -16,7 +16,7 @@ const Social = () => {
         <ListGroup horizontal="md">
           <ListGroup.Item>
             <a
-              href="https://www.linkedin.com/in/vincent-shury/"
+              href="https://www.linkedin.com/in/VincentShury/"
               target="_blank"
               rel="noreferrer"
               referrerpolicy="no-referrer"
