@@ -18,11 +18,12 @@ if you want to get the project running locally.
 
 **(Running the project locally requires the use of a CLI)**
 
+ 
 ## Author
 
 **Vincent Shury**, <small>Full-stack web developer</small>
 
-- [vshury.com](https://www.vshury.com) - Developer portfolio
-- [Github Profile](https://github.com/Vincent440) - GitHub profile
-- [LinkedIn](https://www.linkedin.com/in/vincent-shury/) - LinkedIn profile
-- [vinceshury@gmail.com](mailto:vinceshury@gmail.com) - Please feel free to contact me by email.
+- [vshury.com](https://vshury.com/) Portfolio
+- [GitHub](https://github.com/Vincent440) Profile
+- [![Linkedin Badge](https://img.shields.io/badge/-Vincent_Shury-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/vincent-shury/)](https://www.linkedin.com/in/VincentShury/)
+- [@VincentShury](https://twitter.com/VincentShury) Twitter
