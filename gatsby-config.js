@@ -10,6 +10,7 @@ module.exports = {
     social: {
       twitter: `VincentShury`,
     },
+    // leftover from attempt to generate URLS dynamically for navbar
     // siteLinks: [
     //   {
     //     name: "Home",
@@ -23,8 +24,9 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-sass`,
-    `gatsby-transformer-sharp`,
+    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
