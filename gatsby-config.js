@@ -10,16 +10,16 @@ module.exports = {
     social: {
       twitter: `VincentShury`,
     },
-    siteLinks: [
-      {
-        name: "Home",
-        link: "/",
-      },
-      {
-        name: "Portfolio",
-        link: "/portfolio",
-      },
-    ],
+    // siteLinks: [
+    //   {
+    //     name: "Home",
+    //     link: "/",
+    //   },
+    //   {
+    //     name: "Portfolio",
+    //     link: "/Portfolio",
+    //   },
+    // ],
   },
   plugins: [
     `gatsby-plugin-sass`,

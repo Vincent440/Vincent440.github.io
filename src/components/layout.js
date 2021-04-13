@@ -41,8 +41,8 @@ export default function Layout({ location, children }) {
             <Nav.Item as="li">
               <Nav.Link
                 as={Link}
-                eventKey={`/portfolio/`}
-                to={`/portfolio/`}
+                eventKey={`/Portfolio/`}
+                to={`/Portfolio/`}
                 activeClassName="active"
               >
                 <BriefcaseFill size="25" className="mr-2" />
