@@ -4,14 +4,14 @@ import Col from "react-bootstrap/Col"
 import Jumbotron from "react-bootstrap/Jumbotron"
 import Card from "react-bootstrap/Card"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Projects from "../components/projects"
+import Layout from "../components/Layout"
+import Seo from "../components/Seo"
+import Projects from "../components/Projects"
 
 const Portfolio = ({ location }) => {
   return (
     <Layout location={location}>
-      <SEO title="Portfolio" />
+      <Seo title="Portfolio" />
       <Jumbotron fluid className="py-2 rounded-bottom">
         <h1 className="text-center display-2">Portfolio</h1>
       </Jumbotron>

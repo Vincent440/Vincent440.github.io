@@ -7,7 +7,7 @@ import Button from "react-bootstrap/Button"
 import ButtonGroup from "react-bootstrap/ButtonGroup"
 import { Link45deg } from "react-bootstrap-icons"
 
-import GitHubIcon from "./github-icon"
+import GitHubIcon from "./GithubIcon"
 /**
  * ## Projects
  * Displays all projects in a bootstrap Row

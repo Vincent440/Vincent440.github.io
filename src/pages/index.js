@@ -9,14 +9,14 @@ import Button from "react-bootstrap/Button"
 import ListGroup from "react-bootstrap/ListGroup"
 import { EnvelopeFill, GeoAltFill } from "react-bootstrap-icons"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Social from "../components/social"
+import Layout from "../components/Layout"
+import Seo from "../components/Seo"
+import Social from "../components/Social"
 
 const Home = ({ location, data }) => {
   return (
     <Layout location={location}>
-      <SEO
+      <Seo
         title="About Me"
         image={data.file.childImageSharp.fixed}
         pathname={location.pathname}
