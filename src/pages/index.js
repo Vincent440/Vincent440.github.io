@@ -14,6 +14,7 @@ import Seo from "../components/Seo"
 import Social from "../components/Social"
 
 const Home = ({ location, data }) => {
+  console.log("")
   return (
     <Layout location={location}>
       <Seo
@@ -23,7 +24,7 @@ const Home = ({ location, data }) => {
       />
       <Row>
         <Col>
-          <Jumbotron fluid className="py-2 rounded-bottom">
+          <Jumbotron fluid className="py-2 rounded">
             <h1 className="text-center display-2">About Me</h1>
           </Jumbotron>
         </Col>
@@ -45,19 +46,17 @@ const Home = ({ location, data }) => {
             </Card.Header>
 
             <h4 className="text-center pt-3">Summary</h4>
-            <Card.Body>
-              <Card.Text className="lead">
+            <Card.Body className="px-5">
+              <Card.Text className="lead h3">
                 I graduated from the CWRU Coding Boot Camp in 2019.
               </Card.Text>
               <Card.Text>
-                Currently working as a TA for a remote 24 week part-time boot
-                camp that is a deep dive into full stack web development and the
-                MERN stack. I am nearing the end of teaching my first cohort of
-                about 20 students. Currently open to new opportunities.
+                Currently employed as a Teaching Assistant for a remote 24 week part-time coding boot
+                camp that is focused on full stack web development using the MERN stack.
               </Card.Text>
             </Card.Body>
             <h4 className="text-center">Languages</h4>
-            <Card.Body>
+            <Card.Body className="px-5">
               <ListGroup
                 horizontal="md"
                 className="d-flex justify-content-center"
@@ -70,7 +69,7 @@ const Home = ({ location, data }) => {
                 <ListGroup.Item>Python</ListGroup.Item>
               </ListGroup>
             </Card.Body>
-            <Card.Body>
+            <Card.Body className="px-5">
               <h4 className="text-center">
                 Technologies, Libraries, and Frameworks
               </h4>
@@ -92,7 +91,7 @@ const Home = ({ location, data }) => {
         <Col>
           <Card className="mx-3" bg="dark">
             <Card.Body>
-              <Card>
+              <Card className="mb-4">
                 <Card.Header>
                   <h3>Contact Me</h3>
                 </Card.Header>
@@ -118,7 +117,7 @@ const Home = ({ location, data }) => {
                     <ListGroup.Item>
                       <Row>
                         <Col sm="5" xl="2" className="align-middle">
-                          <h4>
+                          <h4 className="d-flex">
                             Location
                             <GeoAltFill size="25" className="ml-2" />
                           </h4>
@@ -129,8 +128,6 @@ const Home = ({ location, data }) => {
                   </ListGroup>
                 </Card.Body>
               </Card>
-              <Card.Body></Card.Body>
-
               <Social />
             </Card.Body>
           </Card>

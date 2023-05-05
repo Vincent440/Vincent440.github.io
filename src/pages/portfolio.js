@@ -12,7 +12,7 @@ const Portfolio = ({ location }) => {
   return (
     <Layout location={location}>
       <Seo title="Portfolio" />
-      <Jumbotron fluid className="py-2 rounded-bottom">
+      <Jumbotron fluid className="py-2 rounded">
         <h1 className="text-center display-2">Portfolio</h1>
       </Jumbotron>
       <Row>
@@ -28,7 +28,9 @@ const Portfolio = ({ location }) => {
                 first time.
               </Card.Text>
               <Card.Body>
-                <Projects />
+                <Row xs={1} sm={2} xl={3}>
+                  <Projects />
+                </Row>
               </Card.Body>
             </Card.Body>
           </Card>

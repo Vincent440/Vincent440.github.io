@@ -31,7 +31,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/assets/images/`,
+        path: `${__dirname}/src/assets/images/`,
         name: `images`,
       },
     },
@@ -39,10 +39,10 @@ module.exports = {
       resolve: `gatsby-source-github-api`,
       options: {
         url: "https://api.github.com/graphql",
-        token: process.env.GITHUB_PERSONAL_ACCESS_TOKEN,
+        token: process.env.PERSONAL_ACCESS_TOKEN_GITHUB,
         graphQLQuery: githubApiQuery,
         variables: {
-          github_login: process.env.GITHUB_LOGIN,
+          github_login: process.env.LOGIN_GITHUB,
         },
       },
     },

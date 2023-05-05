@@ -1,17 +1,16 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 import Card from "react-bootstrap/Card"
 import Button from "react-bootstrap/Button"
 import ButtonGroup from "react-bootstrap/ButtonGroup"
-import { Link45deg } from "react-bootstrap-icons"
+import { Link45deg, Github } from "react-bootstrap-icons"
 
-import GitHubIcon from "./GithubIcon"
 /**
  * ## Projects
- * Displays all projects in a bootstrap Row
+ * Displays all projects pinned to GitHub profile
  */
+
 const Projects = () => {
   const data = useStaticQuery(graphql`
     {
@@ -39,18 +38,24 @@ const Projects = () => {
   `)
   const projects = data.allGithubData.nodes[0].data.user.pinnedItems.nodes
   return (
-    <Row>
+    <>
       {projects.map(project => (
-        <Col md={6} xl={4} key={project.id}>
-          <Card bg="dark" text="light" className="mx-1 my-3">
-            {project.usesCustomOpenGraphImage ? (
-              <Card.Img
-                variant="top"
-                className="img-thumbnail"
-                src={project.openGraphImageUrl}
-                alt={`Screenshot of ${project.name}`}
-              />
-            ) : null}
+        <Col key={project.id} className="my-3">
+          <Card bg="dark" text="light" className="mx-1 my-3 h-100">
+            <Card.Header>
+              {project.usesCustomOpenGraphImage ? (
+                <Card.Img
+                  variant="top"
+                  className="img-thumbnail"
+                  src={project.openGraphImageUrl}
+                  alt={`Screenshot of ${project.name}`}
+                />
+              ) : (
+                <Card.Text className="text-muted text-white p-2">
+                  Preview coming soon.
+                </Card.Text>
+              )}
+            </Card.Header>
 
             <Card.Body>
               <Card.Title as="h3">{project.name}</Card.Title>
@@ -75,14 +80,14 @@ const Projects = () => {
                 rel="noreferrer"
                 href={project.url}
               >
-                <GitHubIcon />
+                <Github size={26} className="mr-2" />
                 GitHub
               </Button>
             </ButtonGroup>
           </Card>
         </Col>
       ))}
-    </Row>
+    </>
   )
 }
 

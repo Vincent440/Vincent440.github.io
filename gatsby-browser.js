@@ -1,2 +1,2 @@
 // Bootstrap SCSS
-import "./assets/styles/custom.scss"
+import "./src/assets/styles/custom.scss"
