@@ -13,13 +13,13 @@ const Social = () => {
         <h3>Social Profiles</h3>
       </Card.Header>
       <Card.Body>
-        <ListGroup horizontal="md">
+        <ListGroup className="justify-content-center" horizontal="md">
           <ListGroup.Item>
             <a
               href="https://www.linkedin.com/in/VincentShury/"
               target="_blank"
               rel="noreferrer"
-              referrerpolicy="no-referrer"
+              referrerPolicy="no-referrer"
             >
               LinkedIn
             </a>
@@ -30,29 +30,29 @@ const Social = () => {
               href="https://www.github.com/Vincent440"
               target="_blank"
               rel="noreferrer"
-              referrerpolicy="no-referrer"
+              referrerPolicy="no-referrer"
             >
               GitHub
             </a>
           </ListGroup.Item>
 
-          <ListGroup.Item>
+          {/* <ListGroup.Item>
             <a
               href="https://twitter.com/VincentShury"
               target="_blank"
               rel="noreferrer"
-              referrerpolicy="no-referrer"
+              referrerPolicy="no-referrer"
             >
               Twitter
             </a>
-          </ListGroup.Item>
+          </ListGroup.Item> */}
 
           <ListGroup.Item>
             <a
               href="https://stackoverflow.com/users/story/10886832"
               target="_blank"
               rel="noreferrer"
-              referrerpolicy="no-referrer"
+              referrerPolicy="no-referrer"
             >
               Stack Overflow
             </a>

@@ -7,9 +7,9 @@ module.exports = {
     siteUrl: `https://www.vshury.com`,
     description: `Vince Shury's Developer portfolio demonstrating recent completed projects, up to date contact information, and links to Vince's Social media profiles.`,
     author: `Vincent Shury`,
-    social: {
-      twitter: `VincentShury`,
-    },
+    // social: {
+    //   twitter: `VincentShury`,
+    // },
     // leftover from attempt to generate URLS dynamically for navbar
     // siteLinks: [
     //   {
