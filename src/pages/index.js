@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { GatsbyImage } from "gatsby-plugin-image";
+import { GatsbyImage } from "gatsby-plugin-image"
 import Jumbotron from "react-bootstrap/Jumbotron"
 import Col from "react-bootstrap/Col"
 import Card from "react-bootstrap/Card"
@@ -38,7 +38,8 @@ const Home = ({ location, data }) => {
                 <GatsbyImage
                   image={data.file.childImageSharp.gatsbyImageData}
                   className="img-thumbnail"
-                  alt="Vince Shury" />
+                  alt="Vince Shury"
+                />
               </Card.Body>
               <h3 className="text-center">
                 Teaching Assistant, MSU Coding Boot Camp.
@@ -51,8 +52,9 @@ const Home = ({ location, data }) => {
                 I graduated from the CWRU Coding Boot Camp in 2019.
               </Card.Text>
               <Card.Text>
-                Currently employed as a Teaching Assistant for a remote 24 week part-time coding boot
-                camp that is focused on full stack web development using the MERN stack.
+                Currently employed as a Teaching Assistant for a remote 24 week
+                part-time coding boot camp that is focused on full stack web
+                development using the MERN stack.
               </Card.Text>
             </Card.Body>
             <h4 className="text-center">Languages</h4>
@@ -134,15 +136,16 @@ const Home = ({ location, data }) => {
         </Col>
       </Row>
     </Layout>
-  );
+  )
 }
 export default Home
 
-export const query = graphql`{
-  file(relativePath: {eq: "vince.png"}) {
-    childImageSharp {
-      gatsbyImageData(width: 700, height: 525, layout: FIXED)
+export const query = graphql`
+  {
+    file(relativePath: { eq: "vince.png" }) {
+      childImageSharp {
+        gatsbyImageData(width: 700, height: 525, layout: FIXED)
+      }
     }
   }
-}
 `

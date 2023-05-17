@@ -18,7 +18,6 @@ if you want to get the project running locally.
 
 **(Running the project locally requires the use of a CLI)**
 
- 
 ## Author
 
 **Vincent Shury**, <small>Full-stack web developer</small>
