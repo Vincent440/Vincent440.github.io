@@ -28,7 +28,7 @@ const Portfolio = ({ location }) => {
                 first time.
               </Card.Text>
               <Card.Body>
-                <Row xs={1} sm={2} xl={3}>
+                <Row xs={1} sm={1} lg={2} xl={3}>
                   <Projects />
                 </Row>
               </Card.Body>
