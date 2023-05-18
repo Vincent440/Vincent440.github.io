@@ -4,9 +4,9 @@ import Col from "react-bootstrap/Col"
 import Jumbotron from "react-bootstrap/Jumbotron"
 import Card from "react-bootstrap/Card"
 
-import Layout from "../components/Layout"
-import Seo from "../components/Seo"
-import Projects from "../components/Projects"
+import Layout from "../components/layout"
+import { Seo } from "../components/seo"
+import Projects from "../components/projects"
 
 const Portfolio = ({ location }) => {
   return (

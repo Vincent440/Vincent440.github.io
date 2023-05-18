@@ -42,8 +42,8 @@ export default function Layout({ location, children }) {
             <Nav.Item as="li">
               <Nav.Link
                 as={Link}
-                eventKey={`/Portfolio/`}
-                to={`/Portfolio/`}
+                eventKey={`/portfolio/`}
+                to={`/portfolio/`}
                 activeClassName="active font-weight-bolder"
                 className="d-flex align-items-center"
               >

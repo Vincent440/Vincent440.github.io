@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
+
 import Jumbotron from "react-bootstrap/Jumbotron"
 import Col from "react-bootstrap/Col"
 import Card from "react-bootstrap/Card"
@@ -9,12 +10,11 @@ import Button from "react-bootstrap/Button"
 import ListGroup from "react-bootstrap/ListGroup"
 import { EnvelopeFill, GeoAltFill } from "react-bootstrap-icons"
 
-import Layout from "../components/Layout"
-import Seo from "../components/Seo"
-import Social from "../components/Social"
+import Layout from "../components/layout"
+import { Seo } from "../components/seo"
+import Social from "../components/social"
 
 const Home = ({ location, data }) => {
-  console.log("")
   return (
     <Layout location={location}>
       <Seo
