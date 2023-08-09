@@ -21,7 +21,6 @@
     "dotenv": "^8.6.0",
     "gatsby": "^4.25.7",
     "gatsby-plugin-image": "^2.25.0",
-    "gatsby-plugin-react-helmet": "^5.25.0",
     "gatsby-plugin-sass": "^5.25.0",
     "gatsby-plugin-sharp": "^4.25.1",
     "gatsby-source-filesystem": "^4.25.0",
@@ -31,7 +30,6 @@
     "react-bootstrap": "^1.6.4",
     "react-bootstrap-icons": "^1.7.2",
     "react-dom": "^17.0.2",
-    "react-helmet": "^6.1.0",
     "sass": "^1.64.2"
   },
   "devDependencies": {

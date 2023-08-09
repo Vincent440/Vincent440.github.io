@@ -11,17 +11,12 @@ import ListGroup from "react-bootstrap/ListGroup"
 import { EnvelopeFill, GeoAltFill } from "react-bootstrap-icons"
 
 import Layout from "../components/layout"
-import { Seo } from "../components/seo"
+import { SEO } from "../components/seo"
 import Social from "../components/social"
 
 const Home = ({ location, data }) => {
   return (
     <Layout location={location}>
-      <Seo
-        title="About Me"
-        image={data.file.childImageSharp.gatsbyImageData}
-        pathname={location.pathname}
-      />
       <Row>
         <Col>
           <Jumbotron fluid className="py-2 rounded">
@@ -139,6 +134,10 @@ const Home = ({ location, data }) => {
   )
 }
 export default Home
+
+export const Head = () => (
+  <SEO />
+)
 
 export const query = graphql`
   {

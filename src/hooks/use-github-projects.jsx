@@ -27,6 +27,5 @@ export const useGithubProjects = () => {
     }
     `
   )
-  console.log(data)
   return data.allGithubData.nodes[0].data.user.pinnedItems.nodes
 }

@@ -5,13 +5,12 @@ import Jumbotron from "react-bootstrap/Jumbotron"
 import Card from "react-bootstrap/Card"
 
 import Layout from "../components/layout"
-import { Seo } from "../components/seo"
+import { SEO } from "../components/seo"
 import Projects from "../components/projects"
 
 const Portfolio = ({ location }) => {
   return (
     <Layout location={location}>
-      <Seo title="Portfolio" />
       <Jumbotron fluid className="py-2 rounded">
         <h1 className="text-center display-2">Portfolio</h1>
       </Jumbotron>
@@ -41,3 +40,7 @@ const Portfolio = ({ location }) => {
 }
 
 export default Portfolio
+
+export const Head = () => (
+  <SEO title="Vincent Shury's Portfolio" />
+)
