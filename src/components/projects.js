@@ -17,8 +17,8 @@ const Projects = () => {
   return (
     <>
       {projects.map(project => (
-        <Col key={project.id} className="my-3">
-          <Card bg="dark" text="light" className="mx-1 my-3 h-100">
+        <Col key={project.id} className="p-1">
+          <Card bg="dark" text="light" className="m-1 h-100">
             <Card.Header>
               {project.usesCustomOpenGraphImage ? (
                 <Card.Img
@@ -28,8 +28,8 @@ const Projects = () => {
                   alt={`Screenshot of ${project.name}`}
                 />
               ) : (
-                <Card.Text className="text-muted text-white p-2">
-                  Preview coming soon.
+                <Card.Text className="display-6 p-2">
+                  No image for this project.
                 </Card.Text>
               )}
             </Card.Header>
@@ -39,25 +39,23 @@ const Projects = () => {
               <Card.Text>{project.description}</Card.Text>
             </Card.Body>
 
-            <ButtonGroup className="my-2 mx-2 px-0">
+            <ButtonGroup className="m-2 max-w-50 text-center">
               <Button
-                className="px-0 py-2"
                 variant="primary"
                 target="_blank"
                 rel="noreferrer"
                 href={project.homepageUrl}
               >
-                <Link45deg size={26} className="mr-2" />
+                <Link45deg size={24} className="me-2" />
                 Website
               </Button>
               <Button
-                className="px-0 py-2"
                 variant="secondary"
                 target="_blank"
                 rel="noreferrer"
                 href={project.url}
               >
-                <Github size={26} className="mr-2" />
+                <Github size={24} className="me-2" />
                 GitHub
               </Button>
             </ButtonGroup>

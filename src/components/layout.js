@@ -16,9 +16,10 @@ export default function Layout({ location, children }) {
   return (
     <>
       <Navbar variant="dark" bg="dark" expand="md">
-        <Navbar.Brand className="border-right pr-3" as={Link} to="/">
+        <Container fluid >
+        <Navbar.Brand className="border-end pe-3" as={Link} to="/">
           <h3 className="d-flex align-items-center">
-            <LaptopFill size="30" className="mr-2" color="white" />
+            <LaptopFill size="30" className="me-2" color="white" />
             Vincent Shury
           </h3>
         </Navbar.Brand>
@@ -32,10 +33,10 @@ export default function Layout({ location, children }) {
                 as={Link}
                 eventKey={`/`}
                 to={`/`}
-                activeClassName="active font-weight-bolder"
+                activeClassName="active fw-bolder"
                 className="d-flex align-items-center"
               >
-                <HouseDoorFill alt="house logo" size="25" className="mr-2" />
+                <HouseDoorFill alt="house logo" size="25" className="me-2" />
                 Home
               </Nav.Link>
             </Nav.Item>
@@ -44,24 +45,25 @@ export default function Layout({ location, children }) {
                 as={Link}
                 eventKey={`/portfolio/`}
                 to={`/portfolio/`}
-                activeClassName="active font-weight-bolder"
+                activeClassName="active fw-bolder"
                 className="d-flex align-items-center"
               >
-                <BriefcaseFill size="25" className="mr-2" />
+                <BriefcaseFill size="25" className="me-2" />
                 Portfolio
               </Nav.Link>
             </Nav.Item>
             {/* <Nav.Item as="li">
               <Button variant="outline-light" href={resume}>
-                <FileTextFill size="25" className="mr-2" />
+                <FileTextFill size="25" className="me-2" />
                 Resume
               </Button>
             </Nav.Item> */}
           </Nav>
-        </Navbar.Collapse>
+        </Navbar.Collapse> 
+      </Container>
       </Navbar>
 
-      <Container fluid="md" className="my-3">
+      <Container fluid="lg" className="my-3">
         {children}
       </Container>
     </>

@@ -2,16 +2,17 @@ import React from "react"
 import { graphql } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 
-import Jumbotron from "react-bootstrap/Jumbotron"
 import Col from "react-bootstrap/Col"
 import Card from "react-bootstrap/Card"
+import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Button from "react-bootstrap/Button"
 import ListGroup from "react-bootstrap/ListGroup"
+
 import { EnvelopeFill, GeoAltFill } from "react-bootstrap-icons"
 
 import Layout from "../components/layout"
-import { SEO } from "../components/seo"
+import { Seo } from "../components/seo"
 import Social from "../components/social"
 
 const Home = ({ location, data }) => {
@@ -19,16 +20,16 @@ const Home = ({ location, data }) => {
     <Layout location={location}>
       <Row>
         <Col>
-          <Jumbotron fluid className="py-2 rounded">
-            <h1 className="text-center display-2">About Me</h1>
-          </Jumbotron>
+          <Container className="py-3 rounded">
+            <h1 className="text-center fw-bold display-2">About Me</h1>
+          </Container>
         </Col>
       </Row>
-      <Row className="mb-5 mt-4 pb-3">
+      <Row className="mb-3">
         <Col>
-          <Card bg="light">
-            <Card.Header className="py-3 text-center">
-              <h2>Vince Shury, Full Stack Web Developer</h2>
+          <Card>
+            <Card.Header className="py-4">
+              <h2 className="display-5 fw-normal">Vince Shury, Full Stack Web Developer</h2>
               <Card.Body className="d-flex justify-content-center">
                 <GatsbyImage
                   image={data.file.childImageSharp.gatsbyImageData}
@@ -86,9 +87,9 @@ const Home = ({ location, data }) => {
       </Row>
       <Row>
         <Col>
-          <Card className="mx-3" bg="dark">
+          <Card bg="dark">
             <Card.Body>
-              <Card className="mb-4">
+              <Card className="mb-3">
                 <Card.Header>
                   <h3>Contact Me</h3>
                 </Card.Header>
@@ -105,7 +106,7 @@ const Home = ({ location, data }) => {
                             title="Email vinceshury@gmail.com"
                             className="px-2 mx-0"
                           >
-                            <EnvelopeFill size="25" className="mr-3" />
+                            <EnvelopeFill size="25" className="me-3" />
                             vinceshury@gmail.com
                           </Button>
                         </Col>
@@ -116,7 +117,7 @@ const Home = ({ location, data }) => {
                         <Col sm="5" xl="2" className="align-middle">
                           <h4 className="d-flex">
                             Location
-                            <GeoAltFill size="25" className="ml-2" />
+                            <GeoAltFill size="25" className="ms-2" />
                           </h4>
                         </Col>
                         <Col>Toledo, Ohio, 43623</Col>
@@ -136,7 +137,7 @@ const Home = ({ location, data }) => {
 export default Home
 
 export const Head = () => (
-  <SEO />
+  <Seo />
 )
 
 export const query = graphql`

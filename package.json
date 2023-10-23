@@ -17,23 +17,23 @@
     "test": "echo \"You still need to write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "bootstrap": "^4.6.2",
-    "dotenv": "^8.6.0",
-    "gatsby": "^4.25.7",
-    "gatsby-plugin-image": "^2.25.0",
-    "gatsby-plugin-sass": "^5.25.0",
-    "gatsby-plugin-sharp": "^4.25.1",
-    "gatsby-source-filesystem": "^4.25.0",
+    "bootstrap": "^5.3.1",
+    "dotenv": "^16.3.1",
+    "gatsby": "^5.11.0",
+    "gatsby-plugin-image": "^3.11.0",
+    "gatsby-plugin-sass": "^6.11.0",
+    "gatsby-plugin-sharp": "^5.11.0",
+    "gatsby-source-filesystem": "^5.11.0",
     "gatsby-source-github-api": "^1.0.0",
-    "gatsby-transformer-sharp": "^4.25.0",
-    "react": "^17.0.2",
-    "react-bootstrap": "^1.6.4",
-    "react-bootstrap-icons": "^1.7.2",
-    "react-dom": "^17.0.2",
-    "sass": "^1.64.2"
+    "gatsby-transformer-sharp": "^5.11.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.8.0",
+    "react-bootstrap-icons": "^1.10.3",
+    "react-dom": "^18.2.0",
+    "sass": "^1.65.1"
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0",
-    "prettier": "^2.8.8"
+    "gh-pages": "^6.0.0",
+    "prettier": "^3.0.1"
   }
 }

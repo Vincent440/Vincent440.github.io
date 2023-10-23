@@ -1,24 +1,24 @@
 import React from "react"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
-import Jumbotron from "react-bootstrap/Jumbotron"
 import Card from "react-bootstrap/Card"
+import Container from "react-bootstrap/Container"
 
 import Layout from "../components/layout"
-import { SEO } from "../components/seo"
+import { Seo } from "../components/seo"
 import Projects from "../components/projects"
 
 const Portfolio = ({ location }) => {
   return (
     <Layout location={location}>
-      <Jumbotron fluid className="py-2 rounded">
-        <h1 className="text-center display-2">Portfolio</h1>
-      </Jumbotron>
+      <Container className="py-3 rounded">
+        <h1 className="text-center fw-bold display-2">Portfolio</h1>
+      </Container>
       <Row>
         <Col>
-          <Card bg="light">
+          <Card>
             <Card.Header>
-              <Card.Title as="h2">Projects</Card.Title>
+              <Card.Title as="h2" className="display-6 fw-normal">Projects</Card.Title>
             </Card.Header>
             <Card.Body>
               <Card.Text className="lead">
@@ -27,7 +27,7 @@ const Portfolio = ({ location }) => {
                 first time.
               </Card.Text>
               <Card.Body>
-                <Row xs={1} sm={1} lg={2} xl={3}>
+                <Row xs={1} md={2} xl={3}>
                   <Projects />
                 </Row>
               </Card.Body>
@@ -42,5 +42,5 @@ const Portfolio = ({ location }) => {
 export default Portfolio
 
 export const Head = () => (
-  <SEO title="Vincent Shury's Portfolio" />
+  <Seo title="Vincent Shury's Portfolio" />
 )
