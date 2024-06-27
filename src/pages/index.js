@@ -11,7 +11,7 @@ import ListGroup from "react-bootstrap/ListGroup"
 import { EnvelopeFill, GeoAltFill } from "react-bootstrap-icons"
 
 import Layout from "../components/layout"
-import { SEO } from "../components/seo"
+import { Seo } from "../components/seo"
 import Social from "../components/social"
 
 const Home = ({ location, data }) => {
@@ -136,7 +136,7 @@ const Home = ({ location, data }) => {
 export default Home
 
 export const Head = () => (
-  <SEO />
+  <Seo />
 )
 
 export const query = graphql`

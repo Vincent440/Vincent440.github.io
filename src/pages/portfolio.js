@@ -5,7 +5,7 @@ import Jumbotron from "react-bootstrap/Jumbotron"
 import Card from "react-bootstrap/Card"
 
 import Layout from "../components/layout"
-import { SEO } from "../components/seo"
+import { Seo } from "../components/seo"
 import Projects from "../components/projects"
 
 const Portfolio = ({ location }) => {
@@ -42,5 +42,5 @@ const Portfolio = ({ location }) => {
 export default Portfolio
 
 export const Head = () => (
-  <SEO title="Vincent Shury's Portfolio" />
+  <Seo title="Vincent Shury's Portfolio" />
 )

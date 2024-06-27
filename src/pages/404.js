@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 import Card from "react-bootstrap/Card"
 
-import { SEO } from "../components/seo"
+import { Seo } from "../components/seo"
 import Layout from "../components/layout"
 
 const NotFoundPage = ({ data, location }) => {
@@ -46,5 +46,5 @@ export const pageQuery = graphql`
 `
 
 export const Head = () => (
-  <SEO title="404 Page not found - Vincent Shury's Error page" />
+  <Seo title="404 Page not found - Vincent Shury's Error page" />
 )
