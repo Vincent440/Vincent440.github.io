@@ -30,8 +30,8 @@ Basic guide to cloning the repository down and starting on a new machine.
     Paste and fill the code below with your own credentials.
 
     ```env
-    GITHUB_LOGIN=<USERNAME>
-    GITHUB_PERSONAL_ACCESS_TOKEN=<TOKEN_STRING>
+    LOGIN_GITHUB=<USERNAME>
+    PERSONAL_ACCESS_TOKEN_GITHUB=<TOKEN_STRING>
     ```
 
 1.  **Start developing.**
