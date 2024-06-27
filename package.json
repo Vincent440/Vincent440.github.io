@@ -34,7 +34,7 @@
     "sass": "^1.64.2"
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0",
+    "gh-pages": "^6.1.1",
     "husky": "^9.0.11",
     "prettier": "^3.3.2"
   }
