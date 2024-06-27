@@ -3,11 +3,7 @@ import { Link } from "gatsby"
 import Container from "react-bootstrap/Container"
 import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
-import {
-  LaptopFill,
-  HouseDoorFill,
-  BriefcaseFill,
-} from "react-bootstrap-icons"
+import { LaptopFill, HouseDoorFill, BriefcaseFill } from "react-bootstrap-icons"
 
 export default function Layout({ location, children }) {
   return (

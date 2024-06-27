@@ -9,7 +9,7 @@ module.exports = {
     author: `Vincent Shury`,
   },
   flags: {
-    DEV_SSR: true
+    DEV_SSR: true,
   },
   plugins: [
     `gatsby-plugin-sass`,

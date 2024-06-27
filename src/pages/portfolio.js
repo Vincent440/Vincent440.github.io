@@ -41,6 +41,4 @@ const Portfolio = ({ location }) => {
 
 export default Portfolio
 
-export const Head = () => (
-  <Seo title="Vincent Shury's Portfolio" />
-)
+export const Head = () => <Seo title="Vincent Shury's Portfolio" />

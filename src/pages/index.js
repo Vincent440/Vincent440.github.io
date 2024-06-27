@@ -135,9 +135,7 @@ const Home = ({ location, data }) => {
 }
 export default Home
 
-export const Head = () => (
-  <Seo />
-)
+export const Head = () => <Seo />
 
 export const query = graphql`
   {
