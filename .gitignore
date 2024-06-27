@@ -58,7 +58,3 @@ yarn-error.log
 
 # Yarn Integrity file
 .yarn-integrity
-
-# Package Lock Files (Added)
-yarn.lock
-package-lock.json
