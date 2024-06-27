@@ -14,7 +14,8 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"You still need to write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"You still need to write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "prepare": "husky"
   },
   "dependencies": {
     "bootstrap": "^4.6.2",
@@ -34,6 +35,7 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0",
+    "husky": "^9.0.11",
     "prettier": "^2.8.8"
   }
 }
