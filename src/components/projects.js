@@ -24,7 +24,7 @@ const Projects = () => {
                 />
               ) : (
                 <Card.Text className="text-muted text-white p-2">
-                  Preview coming soon.
+                  Preview Image Unavailable
                 </Card.Text>
               )}
             </Card.Header>
