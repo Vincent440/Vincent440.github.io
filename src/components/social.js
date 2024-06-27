@@ -2,10 +2,6 @@ import React from "react"
 import Card from "react-bootstrap/Card"
 import ListGroup from "react-bootstrap/ListGroup"
 
-/**
- * Social Component For Links to Social Media profiles
- */
-
 const Social = () => {
   return (
     <Card>
@@ -35,18 +31,6 @@ const Social = () => {
               GitHub
             </a>
           </ListGroup.Item>
-
-          {/* <ListGroup.Item>
-            <a
-              href="https://twitter.com/VincentShury"
-              target="_blank"
-              rel="noreferrer"
-              referrerPolicy="no-referrer"
-            >
-              Twitter
-            </a>
-          </ListGroup.Item> */}
-
           <ListGroup.Item>
             <a
               href="https://stackoverflow.com/users/story/10886832"

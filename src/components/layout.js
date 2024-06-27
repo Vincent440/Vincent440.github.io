@@ -3,14 +3,11 @@ import { Link } from "gatsby"
 import Container from "react-bootstrap/Container"
 import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
-// import Button from "react-bootstrap/Button"
 import {
   LaptopFill,
   HouseDoorFill,
   BriefcaseFill,
-  // FileTextFill,
 } from "react-bootstrap-icons"
-// import resume from "../../docs/resume.pdf"
 
 export default function Layout({ location, children }) {
   return (
@@ -51,12 +48,6 @@ export default function Layout({ location, children }) {
                 Portfolio
               </Nav.Link>
             </Nav.Item>
-            {/* <Nav.Item as="li">
-              <Button variant="outline-light" href={resume}>
-                <FileTextFill size="25" className="mr-2" />
-                Resume
-              </Button>
-            </Nav.Item> */}
           </Nav>
         </Navbar.Collapse>
       </Navbar>

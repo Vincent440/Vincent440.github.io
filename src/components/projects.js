@@ -1,5 +1,4 @@
 import React from "react"
-// import { useStaticQuery, graphql } from "gatsby"
 import Col from "react-bootstrap/Col"
 import Card from "react-bootstrap/Card"
 import Button from "react-bootstrap/Button"
@@ -7,10 +6,6 @@ import ButtonGroup from "react-bootstrap/ButtonGroup"
 import { Link45deg, Github } from "react-bootstrap-icons"
 
 import { useGithubProjects } from "../hooks/use-github-projects"
-/**
- * ## Projects
- * Displays all projects pinned to GitHub profile
- */
 
 const Projects = () => {
   const projects = useGithubProjects()
