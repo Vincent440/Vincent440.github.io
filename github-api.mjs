@@ -1,14 +1,6 @@
-// github-api.js
-
-exports.githubApiQuery = `
+export const githubApiQuery = `
   query($github_login: String!) {
     user(login: $github_login) {
-      name
-      avatarUrl(size: 500)
-      bio
-      email
-      isHireable
-      location
       pinnedItems(first: 10) {
       nodes {
         ... on Repository {
