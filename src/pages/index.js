@@ -96,51 +96,53 @@ const Home = ({ location, data }) => {
       </Row>
       <Row className="my-2">
         <Col>
-          <Card bg="secondary">
-            <Card.Body>
-              <Card className="mb-4">
-                <Card.Header>
-                  <h3>Contact Me</h3>
-                </Card.Header>
-                <Card.Body>
-                  <ListGroup>
-                    <ListGroup.Item>
-                      <Row>
-                        <Col sm="4" md="5" lg="6" className="align-middle">
-                          <h4>Email</h4>
-                        </Col>
-                        <Col sm="8" md="7" lg="6">
-                          <Button
-                            href="mailto:vinceshury@gmail.com"
-                            title="Email Vince"
-                            className="d-flex gap-4 justify-content-between"
-                          >
-                            <EnvelopeFill size="25" className="me-3" />
-                            <span>vinceshury@gmail.com</span>
-                          </Button>
-                        </Col>
-                      </Row>
-                    </ListGroup.Item>
-                    <ListGroup.Item>
-                      <Row>
-                        <Col sm="6" md="8" className="align-middle">
-                          <h4 className="d-flex gap-4">
-                            Location
-                            <GeoAltFill size="25" />
-                          </h4>
-                        </Col>
-                        <Col sm="6" md="4">
-                          <p>Toledo, Ohio, 43623</p>
-                        </Col>
-                      </Row>
-                    </ListGroup.Item>
-                    <ListGroup.Item>
-                      <Social />
-                    </ListGroup.Item>
-                  </ListGroup>
-                </Card.Body>
-              </Card>
-            </Card.Body>
+          <Card bg="light">
+            <Card.Header>
+              <h3>Contact Me</h3>
+            </Card.Header>
+
+            <ListGroup>
+              <ListGroup.Item>
+                <Row>
+                  <Col
+                    xs="3"
+                    sm="4"
+                    md="6"
+                    lg="7"
+                    xl="8"
+                    className="align-middle"
+                  >
+                    <h4>Email</h4>
+                  </Col>
+                  <Col xs="9" sm="8" md="6" lg="5" xl="4">
+                    <Button
+                      href="mailto:vinceshury@gmail.com"
+                      title="Email Vince"
+                      className="d-flex gap-4 justify-content-between"
+                    >
+                      <EnvelopeFill size="25" className="me-3" />
+                      <span>vinceshury@gmail.com</span>
+                    </Button>
+                  </Col>
+                </Row>
+              </ListGroup.Item>
+              <ListGroup.Item>
+                <Row>
+                  <Col xs="5" sm="6" md="8" lg="9" className="align-middle">
+                    <h4 className="d-flex gap-4">
+                      Location
+                      <GeoAltFill size="25" />
+                    </h4>
+                  </Col>
+                  <Col xs="7" sm="6" md="4" lg="3" className="text-end">
+                    <p>Toledo, Ohio, 43623</p>
+                  </Col>
+                </Row>
+              </ListGroup.Item>
+              <ListGroup.Item>
+                <Social />
+              </ListGroup.Item>
+            </ListGroup>
           </Card>
         </Col>
       </Row>
