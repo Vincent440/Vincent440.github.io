@@ -1,27 +1,18 @@
-//--- Theme Color SASS Variables ---
-$primary: rgba(149, 0, 0, 0.8);
-// $secondary: rgba(207, 207, 207, 0.8);
-$success: rgba(0, 133, 33, 0.8);
-$info: rgba(25, 209, 233, 0.8);
-$warning: rgba(206, 138, 13, 0.8);
-$danger: rgba(207, 8, 8, 0.8);
-$light: rgb(240, 240, 240);
-$dark: rgb(0, 0, 44);
+// https://getbootstrap.com/docs/5.3/customize/color/#theme-colors
+$primary: rgba(149, 0, 0, 0.9);
+$secondary: rgba(200, 200, 200, 0.9);
+$success: rgba(0, 133, 33, 0.9);
+$info: rgba(25, 209, 233, 0.9);
+$warning: rgba(206, 138, 13, 0.9);
+$danger: rgba(207, 8, 8, 0.9);
+$light: rgba(240, 240, 240, 0.9);
+$dark: rgba(0, 0, 70, 0.95);
 
-$enable-rounded: true;
 $enable-shadows: true;
 $enable-gradients: true;
-$enable-responsive-font-sizes: true;
-
-// Set to true to show warnings when using any of the deprecated mixins
-// and functions that are planned to be removed in v5.
-// $enable-deprecation-messages: true;
 
 $card-cap-bg: $dark;
 $card-cap-color: $light;
-
-$jumbotron-bg: $dark;
-$jumbotron-color: $light;
 
 body {
   background: url("../images/gaming-pattern.png");
