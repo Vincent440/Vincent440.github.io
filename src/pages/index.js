@@ -1,8 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
-
-import Jumbotron from "react-bootstrap/Jumbotron"
 import Col from "react-bootstrap/Col"
 import Card from "react-bootstrap/Card"
 import Row from "react-bootstrap/Row"
@@ -17,18 +15,14 @@ import Social from "../components/social"
 const Home = ({ location, data }) => {
   return (
     <Layout location={location}>
-      <Row>
-        <Col>
-          <Jumbotron fluid className="py-2 rounded">
-            <h1 className="text-center display-2">About Me</h1>
-          </Jumbotron>
-        </Col>
-      </Row>
-      <Row className="mb-5 mt-4 pb-3">
+      <Row className="my-3">
         <Col>
           <Card bg="light">
-            <Card.Header className="py-3 text-center">
-              <h2>Vince Shury, Full Stack Web Developer</h2>
+            <Card bg="dark" className="rounded-0 rounded-top">
+              <Card.Header className="py-3 text-center">
+                <h1 className="display-1">Vince Shury</h1>
+                <h2>Full-stack web developer</h2>
+              </Card.Header>
               <Card.Body className="d-flex justify-content-center">
                 <GatsbyImage
                   image={data.file.childImageSharp.gatsbyImageData}
@@ -36,57 +30,73 @@ const Home = ({ location, data }) => {
                   alt="Vince Shury"
                 />
               </Card.Body>
-              <h3 className="text-center">
-                Teaching Assistant, MSU Coding Boot Camp.
-              </h3>
-            </Card.Header>
+            </Card>
 
-            <h4 className="text-center pt-3">Summary</h4>
-            <Card.Body className="px-5">
-              <Card.Text className="lead h3">
-                I graduated from the CWRU Coding Boot Camp in 2019.
+            <Card.Body className="p-2 d-grid gap-3">
+              <h3 className="text-center">Summary</h3>
+              <Card.Text className="lead">
+                Full-stack Software Engineer and Teaching Assistant.
               </Card.Text>
               <Card.Text>
-                Currently employed as a Teaching Assistant for a remote 24 week
+                Currently employed as a part-time Full-stack Software Engineer
+                at Fisecal and as a Teaching Assistant for a remote 24 week
                 part-time coding boot camp that is focused on full stack web
                 development using the MERN stack.
               </Card.Text>
-            </Card.Body>
-            <h4 className="text-center">Languages</h4>
-            <Card.Body className="px-5">
+              <Card.Text>
+                Graduated from the CWRU Coding Boot Camp in 2019, I've also
+                acquired additional certifications through freeCodeCamp.
+              </Card.Text>
+              <h4 className="text-center">Languages</h4>
               <ListGroup
-                horizontal="md"
-                className="d-flex justify-content-center"
+                horizontal
+                className="d-flex flex-wrap justify-content-center"
               >
-                <ListGroup.Item>HTML5</ListGroup.Item>
-                <ListGroup.Item>CSS3</ListGroup.Item>
-                <ListGroup.Item>JavaScript (Node.js)</ListGroup.Item>
-                <ListGroup.Item>SQL</ListGroup.Item>
+                <ListGroup.Item>HTML</ListGroup.Item>
+                <ListGroup.Item>CSS</ListGroup.Item>
+                <ListGroup.Item>JavaScript/TypeScript (Node.js)</ListGroup.Item>
+                <ListGroup.Item>GraphQL</ListGroup.Item>
+                <ListGroup.Item>SQL (PostgreSQL/MySQL)</ListGroup.Item>
                 <ListGroup.Item>BASH</ListGroup.Item>
                 <ListGroup.Item>Python</ListGroup.Item>
               </ListGroup>
-            </Card.Body>
-            <Card.Body className="px-5">
-              <h4 className="text-center">
-                Technologies, Libraries, and Frameworks
-              </h4>
-              <Card.Text>
-                Express, React, GatsbyJS, MongoDB + Mongoose, PostgreSQL, MySQL
-                + Sequelize, GraphQL, jQuery, Bootstrap, and Foundation CSS
-              </Card.Text>
-
+              <h4 className="text-center">Libraries & Frameworks</h4>
+              <ListGroup
+                horizontal
+                className="d-flex flex-wrap justify-content-center"
+              >
+                <ListGroup.Item>React</ListGroup.Item>
+                <ListGroup.Item>GatsbyJS</ListGroup.Item>
+                <ListGroup.Item>Svelte</ListGroup.Item>
+                <ListGroup.Item>SvelteKit</ListGroup.Item>
+                <ListGroup.Item>Express</ListGroup.Item>
+                <ListGroup.Item>MongoDB</ListGroup.Item>
+                <ListGroup.Item>Mongoose</ListGroup.Item>
+                <ListGroup.Item>Bootstrap</ListGroup.Item>
+                <ListGroup.Item>Sequelize ORM</ListGroup.Item>
+                <ListGroup.Item>Drizzle ORM</ListGroup.Item>
+                <ListGroup.Item>Firebase</ListGroup.Item>
+                <ListGroup.Item>jQuery</ListGroup.Item>
+              </ListGroup>
               <h4 className="text-center">Skills</h4>
-              <Card.Text>
-                Problem solving, communication, data modeling, command line
-                interfaces, reading documentation, and time mananagement
-              </Card.Text>
+              <ListGroup
+                horizontal
+                className="d-flex flex-wrap justify-content-center"
+              >
+                <ListGroup.Item>Problem Solving</ListGroup.Item>
+                <ListGroup.Item>Communication</ListGroup.Item>
+                <ListGroup.Item>Data Modeling</ListGroup.Item>
+                <ListGroup.Item>Design</ListGroup.Item>
+                <ListGroup.Item>Reading/Writing Documentation</ListGroup.Item>
+                <ListGroup.Item>Time Management</ListGroup.Item>
+              </ListGroup>
             </Card.Body>
           </Card>
         </Col>
       </Row>
-      <Row>
+      <Row className="my-3">
         <Col>
-          <Card className="mx-3" bg="dark">
+          <Card bg="secondary">
             <Card.Body>
               <Card className="mb-4">
                 <Card.Header>
@@ -96,36 +106,42 @@ const Home = ({ location, data }) => {
                   <ListGroup>
                     <ListGroup.Item>
                       <Row>
-                        <Col sm="5" xl="2" className="align-middle">
+                        <Col sm="4" md="5" lg="6" className="align-middle">
                           <h4>Email</h4>
                         </Col>
-                        <Col>
+                        <Col sm="8" md="7" lg="6">
                           <Button
                             href="mailto:vinceshury@gmail.com"
-                            title="Email vinceshury@gmail.com"
-                            className="px-2 mx-0"
+                            title="Email Vince"
+                            className="d-flex gap-4 justify-content-between"
                           >
-                            <EnvelopeFill size="25" className="mr-3" />
-                            vinceshury@gmail.com
+                            <EnvelopeFill size="25" className="me-3" />
+                            <span>vinceshury@gmail.com</span>
                           </Button>
                         </Col>
                       </Row>
                     </ListGroup.Item>
                     <ListGroup.Item>
                       <Row>
-                        <Col sm="5" xl="2" className="align-middle">
-                          <h4 className="d-flex">
+                        <Col sm="6" md="8" className="align-middle">
+                          <h4 className="d-flex gap-4">
                             Location
-                            <GeoAltFill size="25" className="ml-2" />
+                            <GeoAltFill size="25" />
                           </h4>
                         </Col>
-                        <Col>Toledo, Ohio, 43623</Col>
+                        <Col sm="6" md="4">
+                          <p>Toledo, Ohio, 43623</p>
+                        </Col>
+                      </Row>
+                      <Row>
+                        <Col>
+                          <Social />
+                        </Col>
                       </Row>
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Body>
               </Card>
-              <Social />
             </Card.Body>
           </Card>
         </Col>
