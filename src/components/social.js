@@ -3,8 +3,8 @@ import ListGroup from "react-bootstrap/ListGroup"
 
 const Social = () => {
   return (
-    <ListGroup className="d-flex justify-content-center" horizontal="sm">
-      <ListGroup.Item className="bg-dark text-center align-middle text-light">
+    <ListGroup className="d-flex justify-content-center">
+      <ListGroup.Item className="bg-dark p-1 text-center align-middle text-light">
         <h4>Socials</h4>
       </ListGroup.Item>
       <ListGroup.Item>
