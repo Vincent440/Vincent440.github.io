@@ -44,7 +44,7 @@ const Projects = () => {
                 rel="noreferrer"
                 href={project.homepageUrl}
               >
-                <Link45deg size={26} />
+                <Link45deg size="25" />
                 Website
               </Button>
               <Button
@@ -54,7 +54,7 @@ const Projects = () => {
                 rel="noreferrer"
                 href={project.url}
               >
-                <Github size={26} />
+                <Github size="25" />
                 <span>GitHub</span>
               </Button>
             </ButtonGroup>

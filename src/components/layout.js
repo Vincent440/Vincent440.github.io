@@ -12,7 +12,7 @@ export default function Layout({ location, children }) {
         <Container fluid className="d-flex gap-4">
           <Navbar.Brand className="" as={Link} to="/">
             <h3 className="d-flex gap-2 align-items-center">
-              <LaptopFill size="30" color="white" />
+              <LaptopFill size="25" color="white" />
               Vincent Shury
             </h3>
           </Navbar.Brand>
