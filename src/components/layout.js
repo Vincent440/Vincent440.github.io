@@ -8,47 +8,47 @@ import { LaptopFill, HouseDoorFill, BriefcaseFill } from "react-bootstrap-icons"
 export default function Layout({ location, children }) {
   return (
     <>
-      <Navbar variant="dark" bg="dark" expand="md">
-        <Navbar.Brand className="border-right pr-3" as={Link} to="/">
-          <h3 className="d-flex align-items-center">
-            <LaptopFill size="30" className="mr-2" color="white" />
-            Vincent Shury
-          </h3>
-        </Navbar.Brand>
-
-        <Navbar.Toggle className="" aria-controls="layout-navbar-nav" />
-
-        <Navbar.Collapse id="layout-navbar-nav">
-          <Nav activeKey={location.pathname} as="ul">
-            <Nav.Item as="li">
-              <Nav.Link
-                as={Link}
-                eventKey={`/`}
-                to={`/`}
-                activeClassName="active font-weight-bolder"
-                className="d-flex align-items-center"
-              >
-                <HouseDoorFill alt="house logo" size="25" className="mr-2" />
-                Home
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item as="li">
-              <Nav.Link
-                as={Link}
-                eventKey={`/portfolio/`}
-                to={`/portfolio/`}
-                activeClassName="active font-weight-bolder"
-                className="d-flex align-items-center"
-              >
-                <BriefcaseFill size="25" className="mr-2" />
-                Portfolio
-              </Nav.Link>
-            </Nav.Item>
-          </Nav>
-        </Navbar.Collapse>
+      <Navbar bg="dark" data-bs-theme="dark" expand="sm">
+        <Container fluid className="d-flex gap-4">
+          <Navbar.Brand className="" as={Link} to="/">
+            <h3 className="d-flex gap-2 align-items-center">
+              <LaptopFill size="30" color="white" />
+              Vincent Shury
+            </h3>
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="layout-navbar-nav" />
+          <Navbar.Collapse id="layout-navbar-nav">
+            <Nav activeKey={location.pathname} as="ul">
+              <Nav.Item as="li">
+                <Nav.Link
+                  as={Link}
+                  eventKey={`/`}
+                  to={`/`}
+                  activeClassName="active fw-bolder"
+                  className="d-flex gap-2 align-items-center"
+                >
+                  <HouseDoorFill alt="Home" size="25" />
+                  Home
+                </Nav.Link>
+              </Nav.Item>
+              <Nav.Item as="li">
+                <Nav.Link
+                  as={Link}
+                  eventKey={`portfolio`}
+                  to={`/portfolio`}
+                  activeClassName="active fw-bolder"
+                  className="d-flex gap-2 align-items-center"
+                >
+                  <BriefcaseFill alt="Portfolio" size="25" />
+                  Portfolio
+                </Nav.Link>
+              </Nav.Item>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
       </Navbar>
 
-      <Container fluid="md" className="my-3">
+      <Container fluid="sm" className="py-2">
         {children}
       </Container>
     </>
