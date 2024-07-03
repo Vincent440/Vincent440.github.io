@@ -15,7 +15,7 @@ import Social from "../components/social"
 const Home = ({ location, data }) => {
   return (
     <Layout location={location}>
-      <Row className="my-3">
+      <Row>
         <Col>
           <Card bg="light">
             <Card bg="dark" className="rounded-0 rounded-top">
@@ -94,7 +94,7 @@ const Home = ({ location, data }) => {
           </Card>
         </Col>
       </Row>
-      <Row className="my-3">
+      <Row className="my-2">
         <Col>
           <Card bg="secondary">
             <Card.Body>
@@ -133,11 +133,9 @@ const Home = ({ location, data }) => {
                           <p>Toledo, Ohio, 43623</p>
                         </Col>
                       </Row>
-                      <Row>
-                        <Col>
-                          <Social />
-                        </Col>
-                      </Row>
+                    </ListGroup.Item>
+                    <ListGroup.Item>
+                      <Social />
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Body>
